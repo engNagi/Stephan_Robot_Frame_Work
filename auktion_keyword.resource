@@ -27,11 +27,11 @@ Resource          vars.txt
 Open Browser
     # Store starttime as a global variable
     ${STARTTIME}=           get time
-    set global variable     ${STARTTIME_G}       ${STARTTIME}
+    set global variable     ${STARTTIME_G}      ${STARTTIME}
 
     # Open Browser and resize the window
     create webdriver        ${BROWSER}
-    set window size         ${WINDOW_X}     ${WINDOW_Y}
+    set window size         ${WINDOW_X}         ${WINDOW_Y}
 
 
 Navigate To Main Webpage
@@ -53,6 +53,7 @@ Gather Data
     ${NextGatherRound}=     set variable        ${Max_Round_int+1}
     ${j_int}=               convert to integer  ${StartRound}
     ${j}=                   set variable        ${j_int}
+
     # Loop to cycle through the rounds
     : FOR    ${i}           IN RANGE    999
 
@@ -74,9 +75,9 @@ Gather Data
     \   Screenshot          Screenshot_Round_${j}.png
 
     # Access the tables
-    \   Get Table1          ${j}
-    \   Get Table2          ${j}
-    \   Get Table3          ${j}
+    \   Get Table           ${j}    xpath://table[@class='table1 gebotsobjekte'][1]/tbody[1]/tr     data_2GHz.txt
+    \   Get Table           ${j}    xpath://table[@class='table2a gebotsobjekte'][1]/tbody[1]/tr    data_36GHz.txt
+    \   Get Table           ${j}    xpath://table[@class='table2b gebotsobjekte'][1]/tbody[1]/tr    data_36GHz.txt
 
     # End the loop if it reaches the latest available round
     \   exit for loop if    ${j}==${Max_Round}
@@ -89,11 +90,11 @@ Gather Data
     log to console          \nNext round to gather stored: ${NextGatherRound}\n
 
     # Update zip-file with all new screenshots and delete the screenshot files
-    run                     zip -u AllScreenshots.zip Screenshot*
-    run                     rm Screenshot*
+    run                     zip -u ./Output/AllScreenshots.zip ./Output/Screenshot*
+    run                     rm ./Output/Screenshot*
 
     # Create a zip-file with both csv data files and the screenshot archive
-    run                     zip Round${Max_Round_int}.zip data_2GHz.txt data_36GHz.txt AllScreenshots.zip
+    run                     zip ./Output/Round${Max_Round_int}.zip data_2GHz.txt data_36GHz.txt ./Output/AllScreenshots.zip
 
     # Store endtime and calcute the runtime. Log the runtime to the console
     ${ENDTIME}=             get time
@@ -101,92 +102,38 @@ Gather Data
     log to console          Runtime: ${RUNTIME}\n
 
 
-#Get Tables
-#    [Arguments]     ${URLROUND}         ${current_round}
-#    Go To           ${URLROUND}
-#    Screenshot      Screenshot_Round_${current_round}.png
-#    Get Table1      ${current_round}
-#    Get Table2      ${current_round}
-#    Get Table3      ${current_round}
-
-
-Get Table1
-    [Arguments]             ${current_round}
+Get Table
+    [Arguments]             ${current_round}    ${xpath}     ${filename}
 
     # Store the ammount of rows in this table
-    ${Max_Row_Table1}=      get element count  xpath://table[@class='table1 gebotsobjekte'][1]/tbody[1]/tr
-    log to console          Ammount of Rows: ${Max_Row_Table1}
+    ${Max_Row_Table}=       get element count   ${xpath}
+    log to console          \nAmmount of Rows: ${Max_Row_Table}
 
     # Loop to cycle through the rows
-    : FOR  ${m}             IN RANGE    15
-    \   ${m}                set variable    ${m+1}
+    : FOR  ${m}             IN RANGE    25
+    \   ${m}                set variable        ${m+1}
 
     # Build the xpath to access the current row (m)
-    \   ${DataXPath}=       set variable    xpath://table[@class='table1 gebotsobjekte'][1]/tbody[1]/tr[${m}]
+    \   ${DataXPath}=       set variable        ${xpath}\[${m}\]
 
     # Split the current row into single values seperated by ";" and store/return it in a variable
-    \   ${DataRow}=         SplitUP         ${DataXPath}
+    \   ${DataRow}=         SplitUP             ${DataXPath}
 
     # Append the new collected data to the file. The table header will not be appended (${m}>=3)
-    \   run keyword if      ${m}>=3         append to file  data_2GHz.txt  \n${current_round}${DataRow}
+    \   run keyword if      ${m}>=3             run keywords
+    \   ...                 append to file      ${filename}         \n${current_round}${DataRow}
+    \   ...     AND         log to console      => ${current_round}${DataRow}
+    \   run keyword if      ${m}<3              log to console      ${SPACE * 3}Header - no valid data found in this row
 
     # End the loop if it reaches the latest available row
-    \   exit for loop if    ${m}==${Max_Row_Table1}
-
-
-Get Table2
-    [Arguments]             ${current_round}
-
-    # Store the ammount of rows in this table
-    ${Max_Row_Table2}=      get element count  xpath://table[@class='table2a gebotsobjekte'][1]/tbody[1]/tr
-    log to console          Ammount of Rows: ${Max_Row_Table2}
-
-    # Loop to cycle through the rows
-    : FOR  ${o}             IN RANGE    10
-    \   ${o}                set variable    ${o+1}
-
-    # Build the xpath to access the current row (o)
-    \   ${DataXPath}=       set variable    xpath://table[@class='table2a gebotsobjekte'][1]/tbody[1]/tr[${o}]
-
-    # Split the current row into single values seperated by ";" and store/return it in a variable
-    \   ${DataRow}=         SplitUP         ${DataXPath}
-
-    # Append the new collected data to the file. The table header will not be appended (${m}>=3)
-    \   run keyword if      ${o}>=3         append to file  data_36GHz.txt  \n${current_round}${DataRow}
-
-    # End the loop if it reaches the latest available row
-    \   exit for loop if    ${o}==${Max_Row_Table2}
-
-
-Get Table3
-    [Arguments]             ${current_round}
-
-    # Store the ammount of rows in this table
-    ${Max_Row_Table3}=      get element count  xpath://table[@class='table2b gebotsobjekte'][1]/tbody[1]/tr
-    log to console          Ammount of Rows: ${Max_Row_Table3}
-
-    # Loop to cycle through the rows
-    : FOR  ${p}             IN RANGE    25
-    \   ${p}                set variable    ${p+1}
-
-    # Build the xpath to access the current row (p)
-    \   ${DataXPath}=       set variable    xpath://table[@class='table2b gebotsobjekte'][1]/tbody[1]/tr[${p}]
-
-    # Split the current row into single values seperated by ";" and store/return it in a variable
-    \   ${DataRow}=         SplitUP         ${DataXPath}
-
-    # Append the new collected data to the file. The table header will not be appended (${m}>=3)
-    \   run keyword if      ${p}>=3         append to file  data_36GHz.txt  \n${current_round}${DataRow}
-
-    # End the loop if it reaches the latest available row
-    \   exit for loop if    ${p}==${Max_Row_Table3}
+    \   exit for loop if    ${m}==${Max_Row_Table}
 
 
 SplitUP
     [Arguments]             ${DataXPath}
 
     # Store the ammount of values in this row
-    ${RowValues}=           get element count  ${DataXPath}/td
+    ${RowValues}=           get element count   ${DataXPath}/td
     log to console          Ammount of Values: ${RowValues}
 
     # Create a new empty variable to append the single values seperated by a ";"
@@ -197,19 +144,16 @@ SplitUP
 
     # Exit loop if there are less than four values available (no valid data row)
     \   exit for loop if    ${RowValues}<4
-    \   ${n}                set variable    ${n+1}
+    \   ${n}                set variable        ${n+1}
 
     # Store the currnet value in a variable
-    \   ${value}=           get text    ${DataXPath}/td[${n}]
+    \   ${value}=           get text            ${DataXPath}/td[${n}]
 
     # Append the new value to a variable that stores all collected values seperated with ";"
-    \   ${valuesRow}=       set variable  ${valuesRow};${value}
+    \   ${valuesRow}=       set variable        ${valuesRow};${value}
 
     # End the loop if it reaches the latest available value
     \   exit for loop if    ${n}>=${RowValues}
-
-    # Write the collected values in the console
-    log to console          ${valuesRow}
 
     # Return the collected vaules to the parrent keyword
     [Return]                ${valuesRow}
@@ -220,4 +164,4 @@ Screenshot
     [Arguments]                 ${screenshotname}
 
     # Take a screenshot with the passed name
-    capture page screenshot     ${screenshotname}
+    capture page screenshot     ./Output/${screenshotname}

@@ -5682,3 +5682,815 @@
 196;27A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;103.250.000
 196;28A 3,6 GHz;1x10 MHz abstrakt;TEF DE;113.873.000
 196;29K 3,6 GHz;1x10 MHz konkret;Telekom;127.597.000
+197;01K 3,6 GHz;1x20 MHz konkret;Vodafone;44.373.000
+197;02A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.278.000
+197;03A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;104.829.000
+197;04A 3,6 GHz;1x10 MHz abstrakt;TEF DE;110.785.000
+197;05A 3,6 GHz;1x10 MHz abstrakt;Telekom;101.714.000
+197;06A 3,6 GHz;1x10 MHz abstrakt;TEF DE;101.543.000
+197;07A 3,6 GHz;1x10 MHz abstrakt;Telekom;102.786.000
+197;08A 3,6 GHz;1x10 MHz abstrakt;Telekom;102.663.000
+197;09A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.014.000
+197;10A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.316.000
+197;11A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;103.453.000
+197;12A 3,6 GHz;1x10 MHz abstrakt;Vodafone;102.760.000
+197;13A 3,6 GHz;1x10 MHz abstrakt;Telekom;101.838.000
+197;14A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;102.910.000
+197;15A 3,6 GHz;1x10 MHz abstrakt;Telekom;102.273.000
+197;16A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.228.000
+197;17A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.228.000
+197;18A 3,6 GHz;1x10 MHz abstrakt;Telekom;102.220.000
+197;19A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;101.917.000
+197;20A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;101.917.000
+197;21A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.026.000
+197;22A 3,6 GHz;1x10 MHz abstrakt;TEF DE;102.749.000
+197;23A 3,6 GHz;1x10 MHz abstrakt;Telekom;102.224.000
+197;24A 3,6 GHz;1x10 MHz abstrakt;Vodafone;101.125.000
+197;25A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.137.000
+197;26A 3,6 GHz;1x10 MHz abstrakt;Telekom;102.744.000
+197;27A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;103.250.000
+197;28A 3,6 GHz;1x10 MHz abstrakt;TEF DE;113.873.000
+197;29K 3,6 GHz;1x10 MHz konkret;Telekom;127.597.000
+198;01K 3,6 GHz;1x20 MHz konkret;Vodafone;44.373.000
+198;02A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.278.000
+198;03A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;104.829.000
+198;04A 3,6 GHz;1x10 MHz abstrakt;TEF DE;110.785.000
+198;05A 3,6 GHz;1x10 MHz abstrakt;Telekom;101.714.000
+198;06A 3,6 GHz;1x10 MHz abstrakt;TEF DE;101.543.000
+198;07A 3,6 GHz;1x10 MHz abstrakt;Telekom;102.786.000
+198;08A 3,6 GHz;1x10 MHz abstrakt;Telekom;102.663.000
+198;09A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.014.000
+198;10A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.316.000
+198;11A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;103.453.000
+198;12A 3,6 GHz;1x10 MHz abstrakt;Vodafone;102.760.000
+198;13A 3,6 GHz;1x10 MHz abstrakt;Telekom;101.838.000
+198;14A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;102.910.000
+198;15A 3,6 GHz;1x10 MHz abstrakt;Telekom;102.273.000
+198;16A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.228.000
+198;17A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.228.000
+198;18A 3,6 GHz;1x10 MHz abstrakt;Telekom;102.220.000
+198;19A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;101.917.000
+198;20A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;101.917.000
+198;21A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.026.000
+198;22A 3,6 GHz;1x10 MHz abstrakt;TEF DE;102.749.000
+198;23A 3,6 GHz;1x10 MHz abstrakt;Telekom;102.224.000
+198;24A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.147.000
+198;25A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.137.000
+198;26A 3,6 GHz;1x10 MHz abstrakt;Telekom;102.744.000
+198;27A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;103.250.000
+198;28A 3,6 GHz;1x10 MHz abstrakt;TEF DE;113.873.000
+198;29K 3,6 GHz;1x10 MHz konkret;Telekom;127.597.000
+199;01K 3,6 GHz;1x20 MHz konkret;Vodafone;44.373.000
+199;02A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.278.000
+199;03A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;104.829.000
+199;04A 3,6 GHz;1x10 MHz abstrakt;TEF DE;110.785.000
+199;05A 3,6 GHz;1x10 MHz abstrakt;Telekom;101.714.000
+199;06A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.573.000
+199;07A 3,6 GHz;1x10 MHz abstrakt;Telekom;102.786.000
+199;08A 3,6 GHz;1x10 MHz abstrakt;Telekom;102.663.000
+199;09A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.014.000
+199;10A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.316.000
+199;11A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;103.453.000
+199;12A 3,6 GHz;1x10 MHz abstrakt;Vodafone;102.760.000
+199;13A 3,6 GHz;1x10 MHz abstrakt;Telekom;101.838.000
+199;14A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;102.910.000
+199;15A 3,6 GHz;1x10 MHz abstrakt;Telekom;102.273.000
+199;16A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.228.000
+199;17A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.228.000
+199;18A 3,6 GHz;1x10 MHz abstrakt;Telekom;102.220.000
+199;19A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;101.917.000
+199;20A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;101.917.000
+199;21A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.026.000
+199;22A 3,6 GHz;1x10 MHz abstrakt;TEF DE;102.749.000
+199;23A 3,6 GHz;1x10 MHz abstrakt;Telekom;102.224.000
+199;24A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.147.000
+199;25A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.137.000
+199;26A 3,6 GHz;1x10 MHz abstrakt;Telekom;102.744.000
+199;27A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;103.250.000
+199;28A 3,6 GHz;1x10 MHz abstrakt;TEF DE;113.873.000
+199;29K 3,6 GHz;1x10 MHz konkret;Telekom;127.597.000
+200;01K 3,6 GHz;1x20 MHz konkret;Vodafone;44.373.000
+200;02A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.278.000
+200;03A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;104.829.000
+200;04A 3,6 GHz;1x10 MHz abstrakt;TEF DE;110.785.000
+200;05A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.748.000
+200;06A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.573.000
+200;07A 3,6 GHz;1x10 MHz abstrakt;Telekom;102.786.000
+200;08A 3,6 GHz;1x10 MHz abstrakt;Telekom;102.663.000
+200;09A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.014.000
+200;10A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.316.000
+200;11A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;103.453.000
+200;12A 3,6 GHz;1x10 MHz abstrakt;Vodafone;102.760.000
+200;13A 3,6 GHz;1x10 MHz abstrakt;Telekom;101.838.000
+200;14A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;102.910.000
+200;15A 3,6 GHz;1x10 MHz abstrakt;Telekom;102.273.000
+200;16A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.228.000
+200;17A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.228.000
+200;18A 3,6 GHz;1x10 MHz abstrakt;Telekom;102.220.000
+200;19A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;101.917.000
+200;20A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;101.917.000
+200;21A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.026.000
+200;22A 3,6 GHz;1x10 MHz abstrakt;TEF DE;102.749.000
+200;23A 3,6 GHz;1x10 MHz abstrakt;Telekom;102.224.000
+200;24A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.147.000
+200;25A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.137.000
+200;26A 3,6 GHz;1x10 MHz abstrakt;Telekom;102.744.000
+200;27A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;103.250.000
+200;28A 3,6 GHz;1x10 MHz abstrakt;TEF DE;113.873.000
+200;29K 3,6 GHz;1x10 MHz konkret;Telekom;127.597.000
+201;01K 3,6 GHz;1x20 MHz konkret;Vodafone;44.373.000
+201;02A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.278.000
+201;03A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;104.829.000
+201;04A 3,6 GHz;1x10 MHz abstrakt;TEF DE;110.785.000
+201;05A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.748.000
+201;06A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.573.000
+201;07A 3,6 GHz;1x10 MHz abstrakt;Telekom;102.786.000
+201;08A 3,6 GHz;1x10 MHz abstrakt;Telekom;102.663.000
+201;09A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.014.000
+201;10A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.316.000
+201;11A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;103.453.000
+201;12A 3,6 GHz;1x10 MHz abstrakt;Vodafone;102.760.000
+201;13A 3,6 GHz;1x10 MHz abstrakt;Telekom;101.838.000
+201;14A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;102.910.000
+201;15A 3,6 GHz;1x10 MHz abstrakt;Telekom;102.273.000
+201;16A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.228.000
+201;17A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.228.000
+201;18A 3,6 GHz;1x10 MHz abstrakt;Telekom;102.220.000
+201;19A 3,6 GHz;1x10 MHz abstrakt;Telekom;103.955.000
+201;20A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;101.917.000
+201;21A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.026.000
+201;22A 3,6 GHz;1x10 MHz abstrakt;TEF DE;102.749.000
+201;23A 3,6 GHz;1x10 MHz abstrakt;Telekom;102.224.000
+201;24A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.147.000
+201;25A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.137.000
+201;26A 3,6 GHz;1x10 MHz abstrakt;Telekom;102.744.000
+201;27A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;103.250.000
+201;28A 3,6 GHz;1x10 MHz abstrakt;TEF DE;113.873.000
+201;29K 3,6 GHz;1x10 MHz konkret;Telekom;127.597.000
+202;01K 3,6 GHz;1x20 MHz konkret;Vodafone;44.373.000
+202;02A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.278.000
+202;03A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;104.829.000
+202;04A 3,6 GHz;1x10 MHz abstrakt;TEF DE;110.785.000
+202;05A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.748.000
+202;06A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.573.000
+202;07A 3,6 GHz;1x10 MHz abstrakt;Telekom;102.786.000
+202;08A 3,6 GHz;1x10 MHz abstrakt;Telekom;102.663.000
+202;09A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.014.000
+202;10A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.316.000
+202;11A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;103.453.000
+202;12A 3,6 GHz;1x10 MHz abstrakt;Vodafone;102.760.000
+202;13A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;103.874.000
+202;14A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;102.910.000
+202;15A 3,6 GHz;1x10 MHz abstrakt;Telekom;102.273.000
+202;16A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.228.000
+202;17A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.228.000
+202;18A 3,6 GHz;1x10 MHz abstrakt;Telekom;102.220.000
+202;19A 3,6 GHz;1x10 MHz abstrakt;Telekom;103.955.000
+202;20A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;101.917.000
+202;21A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.026.000
+202;22A 3,6 GHz;1x10 MHz abstrakt;TEF DE;102.749.000
+202;23A 3,6 GHz;1x10 MHz abstrakt;Telekom;102.224.000
+202;24A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.147.000
+202;25A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.137.000
+202;26A 3,6 GHz;1x10 MHz abstrakt;Telekom;102.744.000
+202;27A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;103.250.000
+202;28A 3,6 GHz;1x10 MHz abstrakt;TEF DE;113.873.000
+202;29K 3,6 GHz;1x10 MHz konkret;Telekom;127.597.000
+203;01K 3,6 GHz;1x20 MHz konkret;Vodafone;44.373.000
+203;02A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.278.000
+203;03A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;104.829.000
+203;04A 3,6 GHz;1x10 MHz abstrakt;TEF DE;110.785.000
+203;05A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.748.000
+203;06A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.573.000
+203;07A 3,6 GHz;1x10 MHz abstrakt;Telekom;102.786.000
+203;08A 3,6 GHz;1x10 MHz abstrakt;Telekom;102.663.000
+203;09A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.014.000
+203;10A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.316.000
+203;11A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;103.453.000
+203;12A 3,6 GHz;1x10 MHz abstrakt;Vodafone;102.760.000
+203;13A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;103.874.000
+203;14A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;102.910.000
+203;15A 3,6 GHz;1x10 MHz abstrakt;Telekom;102.273.000
+203;16A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.228.000
+203;17A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.228.000
+203;18A 3,6 GHz;1x10 MHz abstrakt;Telekom;102.220.000
+203;19A 3,6 GHz;1x10 MHz abstrakt;Telekom;103.955.000
+203;20A 3,6 GHz;1x10 MHz abstrakt;Telekom;103.955.000
+203;21A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.026.000
+203;22A 3,6 GHz;1x10 MHz abstrakt;TEF DE;102.749.000
+203;23A 3,6 GHz;1x10 MHz abstrakt;Telekom;102.224.000
+203;24A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.147.000
+203;25A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.137.000
+203;26A 3,6 GHz;1x10 MHz abstrakt;Telekom;102.744.000
+203;27A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;103.250.000
+203;28A 3,6 GHz;1x10 MHz abstrakt;TEF DE;113.873.000
+203;29K 3,6 GHz;1x10 MHz konkret;Telekom;127.597.000
+204;01K 3,6 GHz;1x20 MHz konkret;Vodafone;44.373.000
+204;02A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.278.000
+204;03A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;104.829.000
+204;04A 3,6 GHz;1x10 MHz abstrakt;TEF DE;110.785.000
+204;05A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.748.000
+204;06A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.573.000
+204;07A 3,6 GHz;1x10 MHz abstrakt;Telekom;102.786.000
+204;08A 3,6 GHz;1x10 MHz abstrakt;Telekom;102.663.000
+204;09A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.014.000
+204;10A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.316.000
+204;11A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;103.453.000
+204;12A 3,6 GHz;1x10 MHz abstrakt;Vodafone;102.760.000
+204;13A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;103.874.000
+204;14A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;102.910.000
+204;15A 3,6 GHz;1x10 MHz abstrakt;Telekom;102.273.000
+204;16A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.228.000
+204;17A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.228.000
+204;18A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;104.264.000
+204;19A 3,6 GHz;1x10 MHz abstrakt;Telekom;103.955.000
+204;20A 3,6 GHz;1x10 MHz abstrakt;Telekom;103.955.000
+204;21A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.026.000
+204;22A 3,6 GHz;1x10 MHz abstrakt;TEF DE;102.749.000
+204;23A 3,6 GHz;1x10 MHz abstrakt;Telekom;102.224.000
+204;24A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.147.000
+204;25A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.137.000
+204;26A 3,6 GHz;1x10 MHz abstrakt;Telekom;102.744.000
+204;27A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;103.250.000
+204;28A 3,6 GHz;1x10 MHz abstrakt;TEF DE;113.873.000
+204;29K 3,6 GHz;1x10 MHz konkret;Telekom;127.597.000
+205;01K 3,6 GHz;1x20 MHz konkret;Vodafone;44.373.000
+205;02A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.278.000
+205;03A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;104.829.000
+205;04A 3,6 GHz;1x10 MHz abstrakt;TEF DE;110.785.000
+205;05A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.748.000
+205;06A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.573.000
+205;07A 3,6 GHz;1x10 MHz abstrakt;Telekom;102.786.000
+205;08A 3,6 GHz;1x10 MHz abstrakt;Telekom;102.663.000
+205;09A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.014.000
+205;10A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.316.000
+205;11A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;103.453.000
+205;12A 3,6 GHz;1x10 MHz abstrakt;Vodafone;102.760.000
+205;13A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;103.874.000
+205;14A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;102.910.000
+205;15A 3,6 GHz;1x10 MHz abstrakt;Telekom;102.273.000
+205;16A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.228.000
+205;17A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.228.000
+205;18A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;104.264.000
+205;19A 3,6 GHz;1x10 MHz abstrakt;Telekom;103.955.000
+205;20A 3,6 GHz;1x10 MHz abstrakt;Telekom;103.955.000
+205;21A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.026.000
+205;22A 3,6 GHz;1x10 MHz abstrakt;Telekom;104.803.000
+205;23A 3,6 GHz;1x10 MHz abstrakt;Telekom;102.224.000
+205;24A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.147.000
+205;25A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.137.000
+205;26A 3,6 GHz;1x10 MHz abstrakt;Telekom;102.744.000
+205;27A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;103.250.000
+205;28A 3,6 GHz;1x10 MHz abstrakt;TEF DE;113.873.000
+205;29K 3,6 GHz;1x10 MHz konkret;Telekom;127.597.000
+206;01K 3,6 GHz;1x20 MHz konkret;Vodafone;44.373.000
+206;02A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.278.000
+206;03A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;104.829.000
+206;04A 3,6 GHz;1x10 MHz abstrakt;TEF DE;110.785.000
+206;05A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.748.000
+206;06A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.573.000
+206;07A 3,6 GHz;1x10 MHz abstrakt;Telekom;102.786.000
+206;08A 3,6 GHz;1x10 MHz abstrakt;Telekom;102.663.000
+206;09A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.014.000
+206;10A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.316.000
+206;11A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;103.453.000
+206;12A 3,6 GHz;1x10 MHz abstrakt;Vodafone;102.760.000
+206;13A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;103.874.000
+206;14A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;102.910.000
+206;15A 3,6 GHz;1x10 MHz abstrakt;Telekom;102.273.000
+206;16A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.228.000
+206;17A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.228.000
+206;18A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;104.264.000
+206;19A 3,6 GHz;1x10 MHz abstrakt;Telekom;103.955.000
+206;20A 3,6 GHz;1x10 MHz abstrakt;Telekom;103.955.000
+206;21A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.026.000
+206;22A 3,6 GHz;1x10 MHz abstrakt;Telekom;104.803.000
+206;23A 3,6 GHz;1x10 MHz abstrakt;TEF DE;104.268.000
+206;24A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.147.000
+206;25A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.137.000
+206;26A 3,6 GHz;1x10 MHz abstrakt;Telekom;102.744.000
+206;27A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;103.250.000
+206;28A 3,6 GHz;1x10 MHz abstrakt;TEF DE;113.873.000
+206;29K 3,6 GHz;1x10 MHz konkret;Telekom;127.597.000
+207;01K 3,6 GHz;1x20 MHz konkret;Vodafone;44.373.000
+207;02A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.278.000
+207;03A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;104.829.000
+207;04A 3,6 GHz;1x10 MHz abstrakt;TEF DE;110.785.000
+207;05A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.748.000
+207;06A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.573.000
+207;07A 3,6 GHz;1x10 MHz abstrakt;Telekom;102.786.000
+207;08A 3,6 GHz;1x10 MHz abstrakt;Telekom;102.663.000
+207;09A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.014.000
+207;10A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.316.000
+207;11A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;103.453.000
+207;12A 3,6 GHz;1x10 MHz abstrakt;Telekom;104.815.000
+207;13A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;103.874.000
+207;14A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;102.910.000
+207;15A 3,6 GHz;1x10 MHz abstrakt;Telekom;102.273.000
+207;16A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.228.000
+207;17A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.228.000
+207;18A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;104.264.000
+207;19A 3,6 GHz;1x10 MHz abstrakt;Telekom;103.955.000
+207;20A 3,6 GHz;1x10 MHz abstrakt;Telekom;103.955.000
+207;21A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.026.000
+207;22A 3,6 GHz;1x10 MHz abstrakt;Telekom;104.803.000
+207;23A 3,6 GHz;1x10 MHz abstrakt;TEF DE;104.268.000
+207;24A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.147.000
+207;25A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.137.000
+207;26A 3,6 GHz;1x10 MHz abstrakt;Telekom;102.744.000
+207;27A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;103.250.000
+207;28A 3,6 GHz;1x10 MHz abstrakt;TEF DE;113.873.000
+207;29K 3,6 GHz;1x10 MHz konkret;Telekom;127.597.000
+208;01K 3,6 GHz;1x20 MHz konkret;Vodafone;44.373.000
+208;02A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.278.000
+208;03A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;104.829.000
+208;04A 3,6 GHz;1x10 MHz abstrakt;TEF DE;110.785.000
+208;05A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.748.000
+208;06A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.573.000
+208;07A 3,6 GHz;1x10 MHz abstrakt;Telekom;102.786.000
+208;08A 3,6 GHz;1x10 MHz abstrakt;Telekom;102.663.000
+208;09A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.014.000
+208;10A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.316.000
+208;11A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;103.453.000
+208;12A 3,6 GHz;1x10 MHz abstrakt;Telekom;104.815.000
+208;13A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;103.874.000
+208;14A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;102.910.000
+208;15A 3,6 GHz;1x10 MHz abstrakt;Vodafone;104.318.000
+208;16A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.228.000
+208;17A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.228.000
+208;18A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;104.264.000
+208;19A 3,6 GHz;1x10 MHz abstrakt;Telekom;103.955.000
+208;20A 3,6 GHz;1x10 MHz abstrakt;Telekom;103.955.000
+208;21A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.026.000
+208;22A 3,6 GHz;1x10 MHz abstrakt;Telekom;104.803.000
+208;23A 3,6 GHz;1x10 MHz abstrakt;TEF DE;104.268.000
+208;24A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.147.000
+208;25A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.137.000
+208;26A 3,6 GHz;1x10 MHz abstrakt;Telekom;102.744.000
+208;27A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;103.250.000
+208;28A 3,6 GHz;1x10 MHz abstrakt;TEF DE;113.873.000
+208;29K 3,6 GHz;1x10 MHz konkret;Telekom;127.597.000
+209;01K 3,6 GHz;1x20 MHz konkret;Vodafone;44.373.000
+209;02A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.278.000
+209;03A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;104.829.000
+209;04A 3,6 GHz;1x10 MHz abstrakt;TEF DE;110.785.000
+209;05A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.748.000
+209;06A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.573.000
+209;07A 3,6 GHz;1x10 MHz abstrakt;Telekom;102.786.000
+209;08A 3,6 GHz;1x10 MHz abstrakt;Telekom;102.663.000
+209;09A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.014.000
+209;10A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.316.000
+209;11A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;103.453.000
+209;12A 3,6 GHz;1x10 MHz abstrakt;Telekom;104.815.000
+209;13A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;103.874.000
+209;14A 3,6 GHz;1x10 MHz abstrakt;Telekom;104.968.000
+209;15A 3,6 GHz;1x10 MHz abstrakt;Vodafone;104.318.000
+209;16A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.228.000
+209;17A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.228.000
+209;18A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;104.264.000
+209;19A 3,6 GHz;1x10 MHz abstrakt;Telekom;103.955.000
+209;20A 3,6 GHz;1x10 MHz abstrakt;Telekom;103.955.000
+209;21A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.026.000
+209;22A 3,6 GHz;1x10 MHz abstrakt;Telekom;104.803.000
+209;23A 3,6 GHz;1x10 MHz abstrakt;TEF DE;104.268.000
+209;24A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.147.000
+209;25A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.137.000
+209;26A 3,6 GHz;1x10 MHz abstrakt;Telekom;102.744.000
+209;27A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;103.250.000
+209;28A 3,6 GHz;1x10 MHz abstrakt;TEF DE;113.873.000
+209;29K 3,6 GHz;1x10 MHz konkret;Telekom;127.597.000
+210;01K 3,6 GHz;1x20 MHz konkret;Vodafone;44.373.000
+210;02A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.278.000
+210;03A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;104.829.000
+210;04A 3,6 GHz;1x10 MHz abstrakt;TEF DE;110.785.000
+210;05A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.748.000
+210;06A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.573.000
+210;07A 3,6 GHz;1x10 MHz abstrakt;Telekom;102.786.000
+210;08A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;104.716.000
+210;09A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.014.000
+210;10A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.316.000
+210;11A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;103.453.000
+210;12A 3,6 GHz;1x10 MHz abstrakt;Telekom;104.815.000
+210;13A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;103.874.000
+210;14A 3,6 GHz;1x10 MHz abstrakt;Telekom;104.968.000
+210;15A 3,6 GHz;1x10 MHz abstrakt;Vodafone;104.318.000
+210;16A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.228.000
+210;17A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.228.000
+210;18A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;104.264.000
+210;19A 3,6 GHz;1x10 MHz abstrakt;Telekom;103.955.000
+210;20A 3,6 GHz;1x10 MHz abstrakt;Telekom;103.955.000
+210;21A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.026.000
+210;22A 3,6 GHz;1x10 MHz abstrakt;Telekom;104.803.000
+210;23A 3,6 GHz;1x10 MHz abstrakt;TEF DE;104.268.000
+210;24A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.147.000
+210;25A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.137.000
+210;26A 3,6 GHz;1x10 MHz abstrakt;Telekom;102.744.000
+210;27A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;103.250.000
+210;28A 3,6 GHz;1x10 MHz abstrakt;TEF DE;113.873.000
+210;29K 3,6 GHz;1x10 MHz konkret;Telekom;127.597.000
+211;01K 3,6 GHz;1x20 MHz konkret;Vodafone;44.373.000
+211;02A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.278.000
+211;03A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;104.829.000
+211;04A 3,6 GHz;1x10 MHz abstrakt;TEF DE;110.785.000
+211;05A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.748.000
+211;06A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.573.000
+211;07A 3,6 GHz;1x10 MHz abstrakt;Telekom;102.786.000
+211;08A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;104.716.000
+211;09A 3,6 GHz;1x10 MHz abstrakt;Telekom;105.074.000
+211;10A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.316.000
+211;11A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;103.453.000
+211;12A 3,6 GHz;1x10 MHz abstrakt;Telekom;104.815.000
+211;13A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;103.874.000
+211;14A 3,6 GHz;1x10 MHz abstrakt;Telekom;104.968.000
+211;15A 3,6 GHz;1x10 MHz abstrakt;Vodafone;104.318.000
+211;16A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.228.000
+211;17A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.228.000
+211;18A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;104.264.000
+211;19A 3,6 GHz;1x10 MHz abstrakt;Telekom;103.955.000
+211;20A 3,6 GHz;1x10 MHz abstrakt;Telekom;103.955.000
+211;21A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.026.000
+211;22A 3,6 GHz;1x10 MHz abstrakt;Telekom;104.803.000
+211;23A 3,6 GHz;1x10 MHz abstrakt;TEF DE;104.268.000
+211;24A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.147.000
+211;25A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.137.000
+211;26A 3,6 GHz;1x10 MHz abstrakt;Telekom;102.744.000
+211;27A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;103.250.000
+211;28A 3,6 GHz;1x10 MHz abstrakt;TEF DE;113.873.000
+211;29K 3,6 GHz;1x10 MHz konkret;Telekom;127.597.000
+212;01K 3,6 GHz;1x20 MHz konkret;Vodafone;44.373.000
+212;02A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.278.000
+212;03A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;104.829.000
+212;04A 3,6 GHz;1x10 MHz abstrakt;TEF DE;110.785.000
+212;05A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.748.000
+212;06A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.573.000
+212;07A 3,6 GHz;1x10 MHz abstrakt;Telekom;102.786.000
+212;08A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;104.716.000
+212;09A 3,6 GHz;1x10 MHz abstrakt;Telekom;105.074.000
+212;10A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.316.000
+212;11A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;103.453.000
+212;12A 3,6 GHz;1x10 MHz abstrakt;Telekom;104.815.000
+212;13A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;103.874.000
+212;14A 3,6 GHz;1x10 MHz abstrakt;Telekom;104.968.000
+212;15A 3,6 GHz;1x10 MHz abstrakt;Vodafone;104.318.000
+212;16A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.228.000
+212;17A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.228.000
+212;18A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;104.264.000
+212;19A 3,6 GHz;1x10 MHz abstrakt;Telekom;103.955.000
+212;20A 3,6 GHz;1x10 MHz abstrakt;Telekom;103.955.000
+212;21A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.026.000
+212;22A 3,6 GHz;1x10 MHz abstrakt;Telekom;104.803.000
+212;23A 3,6 GHz;1x10 MHz abstrakt;TEF DE;104.268.000
+212;24A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.147.000
+212;25A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.137.000
+212;26A 3,6 GHz;1x10 MHz abstrakt;Vodafone;104.798.000
+212;27A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;103.250.000
+212;28A 3,6 GHz;1x10 MHz abstrakt;TEF DE;113.873.000
+212;29K 3,6 GHz;1x10 MHz konkret;Telekom;127.597.000
+213;01K 3,6 GHz;1x20 MHz konkret;Vodafone;44.373.000
+213;02A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.278.000
+213;03A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;104.829.000
+213;04A 3,6 GHz;1x10 MHz abstrakt;TEF DE;110.785.000
+213;05A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.748.000
+213;06A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.573.000
+213;07A 3,6 GHz;1x10 MHz abstrakt;Telekom;102.786.000
+213;08A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;104.716.000
+213;09A 3,6 GHz;1x10 MHz abstrakt;Telekom;105.074.000
+213;10A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.316.000
+213;11A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;103.453.000
+213;12A 3,6 GHz;1x10 MHz abstrakt;Telekom;104.815.000
+213;13A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;103.874.000
+213;14A 3,6 GHz;1x10 MHz abstrakt;Telekom;104.968.000
+213;15A 3,6 GHz;1x10 MHz abstrakt;Vodafone;104.318.000
+213;16A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.228.000
+213;17A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.228.000
+213;18A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;104.264.000
+213;19A 3,6 GHz;1x10 MHz abstrakt;Telekom;103.955.000
+213;20A 3,6 GHz;1x10 MHz abstrakt;Telekom;103.955.000
+213;21A 3,6 GHz;1x10 MHz abstrakt;Telekom;105.086.000
+213;22A 3,6 GHz;1x10 MHz abstrakt;Telekom;104.803.000
+213;23A 3,6 GHz;1x10 MHz abstrakt;TEF DE;104.268.000
+213;24A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.147.000
+213;25A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.137.000
+213;26A 3,6 GHz;1x10 MHz abstrakt;Vodafone;104.798.000
+213;27A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;103.250.000
+213;28A 3,6 GHz;1x10 MHz abstrakt;TEF DE;113.873.000
+213;29K 3,6 GHz;1x10 MHz konkret;Telekom;127.597.000
+214;01K 3,6 GHz;1x20 MHz konkret;Vodafone;44.373.000
+214;02A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.278.000
+214;03A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;104.829.000
+214;04A 3,6 GHz;1x10 MHz abstrakt;TEF DE;110.785.000
+214;05A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.748.000
+214;06A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.573.000
+214;07A 3,6 GHz;1x10 MHz abstrakt;TEF DE;104.841.000
+214;08A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;104.716.000
+214;09A 3,6 GHz;1x10 MHz abstrakt;Telekom;105.074.000
+214;10A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.316.000
+214;11A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;103.453.000
+214;12A 3,6 GHz;1x10 MHz abstrakt;Telekom;104.815.000
+214;13A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;103.874.000
+214;14A 3,6 GHz;1x10 MHz abstrakt;Telekom;104.968.000
+214;15A 3,6 GHz;1x10 MHz abstrakt;Vodafone;104.318.000
+214;16A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.228.000
+214;17A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.228.000
+214;18A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;104.264.000
+214;19A 3,6 GHz;1x10 MHz abstrakt;Telekom;103.955.000
+214;20A 3,6 GHz;1x10 MHz abstrakt;Telekom;103.955.000
+214;21A 3,6 GHz;1x10 MHz abstrakt;Telekom;105.086.000
+214;22A 3,6 GHz;1x10 MHz abstrakt;Telekom;104.803.000
+214;23A 3,6 GHz;1x10 MHz abstrakt;TEF DE;104.268.000
+214;24A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.147.000
+214;25A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.137.000
+214;26A 3,6 GHz;1x10 MHz abstrakt;Vodafone;104.798.000
+214;27A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;103.250.000
+214;28A 3,6 GHz;1x10 MHz abstrakt;TEF DE;113.873.000
+214;29K 3,6 GHz;1x10 MHz konkret;Telekom;127.597.000
+215;01K 3,6 GHz;1x20 MHz konkret;Vodafone;44.373.000
+215;02A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.278.000
+215;03A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;104.829.000
+215;04A 3,6 GHz;1x10 MHz abstrakt;TEF DE;110.785.000
+215;05A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.748.000
+215;06A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.573.000
+215;07A 3,6 GHz;1x10 MHz abstrakt;TEF DE;104.841.000
+215;08A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;104.716.000
+215;09A 3,6 GHz;1x10 MHz abstrakt;Telekom;105.074.000
+215;10A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.316.000
+215;11A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;103.453.000
+215;12A 3,6 GHz;1x10 MHz abstrakt;Telekom;104.815.000
+215;13A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;103.874.000
+215;14A 3,6 GHz;1x10 MHz abstrakt;Telekom;104.968.000
+215;15A 3,6 GHz;1x10 MHz abstrakt;Vodafone;104.318.000
+215;16A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.228.000
+215;17A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.228.000
+215;18A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;104.264.000
+215;19A 3,6 GHz;1x10 MHz abstrakt;Telekom;103.955.000
+215;20A 3,6 GHz;1x10 MHz abstrakt;Telekom;103.955.000
+215;21A 3,6 GHz;1x10 MHz abstrakt;Telekom;105.086.000
+215;22A 3,6 GHz;1x10 MHz abstrakt;Telekom;104.803.000
+215;23A 3,6 GHz;1x10 MHz abstrakt;TEF DE;104.268.000
+215;24A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.147.000
+215;25A 3,6 GHz;1x10 MHz abstrakt;Telekom;105.199.000
+215;26A 3,6 GHz;1x10 MHz abstrakt;Vodafone;104.798.000
+215;27A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;103.250.000
+215;28A 3,6 GHz;1x10 MHz abstrakt;TEF DE;113.873.000
+215;29K 3,6 GHz;1x10 MHz konkret;Telekom;127.597.000
+216;01K 3,6 GHz;1x20 MHz konkret;Vodafone;44.373.000
+216;02A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.278.000
+216;03A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;104.829.000
+216;04A 3,6 GHz;1x10 MHz abstrakt;TEF DE;110.785.000
+216;05A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.748.000
+216;06A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.573.000
+216;07A 3,6 GHz;1x10 MHz abstrakt;TEF DE;104.841.000
+216;08A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;104.716.000
+216;09A 3,6 GHz;1x10 MHz abstrakt;Telekom;105.074.000
+216;10A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.316.000
+216;11A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;103.453.000
+216;12A 3,6 GHz;1x10 MHz abstrakt;Telekom;104.815.000
+216;13A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;103.874.000
+216;14A 3,6 GHz;1x10 MHz abstrakt;Telekom;104.968.000
+216;15A 3,6 GHz;1x10 MHz abstrakt;Vodafone;104.318.000
+216;16A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.228.000
+216;17A 3,6 GHz;1x10 MHz abstrakt;TEF DE;105.292.000
+216;18A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;104.264.000
+216;19A 3,6 GHz;1x10 MHz abstrakt;Telekom;103.955.000
+216;20A 3,6 GHz;1x10 MHz abstrakt;Telekom;103.955.000
+216;21A 3,6 GHz;1x10 MHz abstrakt;Telekom;105.086.000
+216;22A 3,6 GHz;1x10 MHz abstrakt;Telekom;104.803.000
+216;23A 3,6 GHz;1x10 MHz abstrakt;TEF DE;104.268.000
+216;24A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.147.000
+216;25A 3,6 GHz;1x10 MHz abstrakt;Telekom;105.199.000
+216;26A 3,6 GHz;1x10 MHz abstrakt;Vodafone;104.798.000
+216;27A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;103.250.000
+216;28A 3,6 GHz;1x10 MHz abstrakt;TEF DE;113.873.000
+216;29K 3,6 GHz;1x10 MHz konkret;Telekom;127.597.000
+217;01K 3,6 GHz;1x20 MHz konkret;Vodafone;44.373.000
+217;02A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.278.000
+217;03A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;104.829.000
+217;04A 3,6 GHz;1x10 MHz abstrakt;TEF DE;110.785.000
+217;05A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.748.000
+217;06A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.573.000
+217;07A 3,6 GHz;1x10 MHz abstrakt;TEF DE;104.841.000
+217;08A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;104.716.000
+217;09A 3,6 GHz;1x10 MHz abstrakt;Telekom;105.074.000
+217;10A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.316.000
+217;11A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;103.453.000
+217;12A 3,6 GHz;1x10 MHz abstrakt;Telekom;104.815.000
+217;13A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;103.874.000
+217;14A 3,6 GHz;1x10 MHz abstrakt;Telekom;104.968.000
+217;15A 3,6 GHz;1x10 MHz abstrakt;Vodafone;104.318.000
+217;16A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.228.000
+217;17A 3,6 GHz;1x10 MHz abstrakt;TEF DE;105.292.000
+217;18A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;104.264.000
+217;19A 3,6 GHz;1x10 MHz abstrakt;Telekom;103.955.000
+217;20A 3,6 GHz;1x10 MHz abstrakt;Telekom;103.955.000
+217;21A 3,6 GHz;1x10 MHz abstrakt;Telekom;105.086.000
+217;22A 3,6 GHz;1x10 MHz abstrakt;Telekom;104.803.000
+217;23A 3,6 GHz;1x10 MHz abstrakt;TEF DE;104.268.000
+217;24A 3,6 GHz;1x10 MHz abstrakt;Vodafone;105.209.000
+217;25A 3,6 GHz;1x10 MHz abstrakt;Telekom;105.199.000
+217;26A 3,6 GHz;1x10 MHz abstrakt;Vodafone;104.798.000
+217;27A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;103.250.000
+217;28A 3,6 GHz;1x10 MHz abstrakt;TEF DE;113.873.000
+217;29K 3,6 GHz;1x10 MHz konkret;Telekom;127.597.000
+218;01K 3,6 GHz;1x20 MHz konkret;Vodafone;44.373.000
+218;02A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.278.000
+218;03A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;104.829.000
+218;04A 3,6 GHz;1x10 MHz abstrakt;TEF DE;110.785.000
+218;05A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.748.000
+218;06A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.573.000
+218;07A 3,6 GHz;1x10 MHz abstrakt;TEF DE;104.841.000
+218;08A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;104.716.000
+218;09A 3,6 GHz;1x10 MHz abstrakt;Telekom;105.074.000
+218;10A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.316.000
+218;11A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;103.453.000
+218;12A 3,6 GHz;1x10 MHz abstrakt;Telekom;104.815.000
+218;13A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;103.874.000
+218;14A 3,6 GHz;1x10 MHz abstrakt;Telekom;104.968.000
+218;15A 3,6 GHz;1x10 MHz abstrakt;Vodafone;104.318.000
+218;16A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.228.000
+218;17A 3,6 GHz;1x10 MHz abstrakt;TEF DE;105.292.000
+218;18A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;104.264.000
+218;19A 3,6 GHz;1x10 MHz abstrakt;Telekom;103.955.000
+218;20A 3,6 GHz;1x10 MHz abstrakt;Telekom;103.955.000
+218;21A 3,6 GHz;1x10 MHz abstrakt;Telekom;105.086.000
+218;22A 3,6 GHz;1x10 MHz abstrakt;Telekom;104.803.000
+218;23A 3,6 GHz;1x10 MHz abstrakt;TEF DE;104.268.000
+218;24A 3,6 GHz;1x10 MHz abstrakt;Vodafone;105.209.000
+218;25A 3,6 GHz;1x10 MHz abstrakt;Telekom;105.199.000
+218;26A 3,6 GHz;1x10 MHz abstrakt;Vodafone;104.798.000
+218;27A 3,6 GHz;1x10 MHz abstrakt;TEF DE;105.315.000
+218;28A 3,6 GHz;1x10 MHz abstrakt;TEF DE;113.873.000
+218;29K 3,6 GHz;1x10 MHz konkret;Telekom;127.597.000
+219;01K 3,6 GHz;1x20 MHz konkret;Vodafone;44.373.000
+219;02A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.278.000
+219;03A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;104.829.000
+219;04A 3,6 GHz;1x10 MHz abstrakt;TEF DE;110.785.000
+219;05A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.748.000
+219;06A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.573.000
+219;07A 3,6 GHz;1x10 MHz abstrakt;TEF DE;104.841.000
+219;08A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;104.716.000
+219;09A 3,6 GHz;1x10 MHz abstrakt;Telekom;105.074.000
+219;10A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.316.000
+219;11A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;103.453.000
+219;12A 3,6 GHz;1x10 MHz abstrakt;Telekom;104.815.000
+219;13A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;103.874.000
+219;14A 3,6 GHz;1x10 MHz abstrakt;Telekom;104.968.000
+219;15A 3,6 GHz;1x10 MHz abstrakt;Vodafone;104.318.000
+219;16A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;105.292.000
+219;17A 3,6 GHz;1x10 MHz abstrakt;TEF DE;105.292.000
+219;18A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;104.264.000
+219;19A 3,6 GHz;1x10 MHz abstrakt;Telekom;103.955.000
+219;20A 3,6 GHz;1x10 MHz abstrakt;Telekom;103.955.000
+219;21A 3,6 GHz;1x10 MHz abstrakt;Telekom;105.086.000
+219;22A 3,6 GHz;1x10 MHz abstrakt;Telekom;104.803.000
+219;23A 3,6 GHz;1x10 MHz abstrakt;TEF DE;104.268.000
+219;24A 3,6 GHz;1x10 MHz abstrakt;Vodafone;105.209.000
+219;25A 3,6 GHz;1x10 MHz abstrakt;Telekom;105.199.000
+219;26A 3,6 GHz;1x10 MHz abstrakt;Vodafone;104.798.000
+219;27A 3,6 GHz;1x10 MHz abstrakt;TEF DE;105.315.000
+219;28A 3,6 GHz;1x10 MHz abstrakt;TEF DE;113.873.000
+219;29K 3,6 GHz;1x10 MHz konkret;Telekom;127.597.000
+220;01K 3,6 GHz;1x20 MHz konkret;Vodafone;44.373.000
+220;02A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.278.000
+220;03A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;104.829.000
+220;04A 3,6 GHz;1x10 MHz abstrakt;TEF DE;110.785.000
+220;05A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.748.000
+220;06A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.573.000
+220;07A 3,6 GHz;1x10 MHz abstrakt;TEF DE;104.841.000
+220;08A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;104.716.000
+220;09A 3,6 GHz;1x10 MHz abstrakt;Telekom;105.074.000
+220;10A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.316.000
+220;11A 3,6 GHz;1x10 MHz abstrakt;Vodafone;105.522.000
+220;12A 3,6 GHz;1x10 MHz abstrakt;Telekom;104.815.000
+220;13A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;103.874.000
+220;14A 3,6 GHz;1x10 MHz abstrakt;Telekom;104.968.000
+220;15A 3,6 GHz;1x10 MHz abstrakt;Vodafone;104.318.000
+220;16A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;105.292.000
+220;17A 3,6 GHz;1x10 MHz abstrakt;TEF DE;105.292.000
+220;18A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;104.264.000
+220;19A 3,6 GHz;1x10 MHz abstrakt;Telekom;103.955.000
+220;20A 3,6 GHz;1x10 MHz abstrakt;Telekom;103.955.000
+220;21A 3,6 GHz;1x10 MHz abstrakt;Telekom;105.086.000
+220;22A 3,6 GHz;1x10 MHz abstrakt;Telekom;104.803.000
+220;23A 3,6 GHz;1x10 MHz abstrakt;TEF DE;104.268.000
+220;24A 3,6 GHz;1x10 MHz abstrakt;Vodafone;105.209.000
+220;25A 3,6 GHz;1x10 MHz abstrakt;Telekom;105.199.000
+220;26A 3,6 GHz;1x10 MHz abstrakt;Vodafone;104.798.000
+220;27A 3,6 GHz;1x10 MHz abstrakt;TEF DE;105.315.000
+220;28A 3,6 GHz;1x10 MHz abstrakt;TEF DE;113.873.000
+220;29K 3,6 GHz;1x10 MHz konkret;Telekom;127.597.000
+221;01K 3,6 GHz;1x20 MHz konkret;Vodafone;44.373.000
+221;02A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;105.343.000
+221;03A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;104.829.000
+221;04A 3,6 GHz;1x10 MHz abstrakt;TEF DE;110.785.000
+221;05A 3,6 GHz;1x10 MHz abstrakt;TEF DE;103.748.000
+221;06A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.573.000
+221;07A 3,6 GHz;1x10 MHz abstrakt;TEF DE;104.841.000
+221;08A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;104.716.000
+221;09A 3,6 GHz;1x10 MHz abstrakt;Telekom;105.074.000
+221;10A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.316.000
+221;11A 3,6 GHz;1x10 MHz abstrakt;Vodafone;105.522.000
+221;12A 3,6 GHz;1x10 MHz abstrakt;Telekom;104.815.000
+221;13A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;103.874.000
+221;14A 3,6 GHz;1x10 MHz abstrakt;Telekom;104.968.000
+221;15A 3,6 GHz;1x10 MHz abstrakt;Vodafone;104.318.000
+221;16A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;105.292.000
+221;17A 3,6 GHz;1x10 MHz abstrakt;TEF DE;105.292.000
+221;18A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;104.264.000
+221;19A 3,6 GHz;1x10 MHz abstrakt;Telekom;103.955.000
+221;20A 3,6 GHz;1x10 MHz abstrakt;Telekom;103.955.000
+221;21A 3,6 GHz;1x10 MHz abstrakt;Telekom;105.086.000
+221;22A 3,6 GHz;1x10 MHz abstrakt;Telekom;104.803.000
+221;23A 3,6 GHz;1x10 MHz abstrakt;TEF DE;104.268.000
+221;24A 3,6 GHz;1x10 MHz abstrakt;Vodafone;105.209.000
+221;25A 3,6 GHz;1x10 MHz abstrakt;Telekom;105.199.000
+221;26A 3,6 GHz;1x10 MHz abstrakt;Vodafone;104.798.000
+221;27A 3,6 GHz;1x10 MHz abstrakt;TEF DE;105.315.000
+221;28A 3,6 GHz;1x10 MHz abstrakt;TEF DE;113.873.000
+221;29K 3,6 GHz;1x10 MHz konkret;Telekom;127.597.000
+222;01K 3,6 GHz;1x20 MHz konkret;Vodafone;44.373.000
+222;02A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;105.343.000
+222;03A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;104.829.000
+222;04A 3,6 GHz;1x10 MHz abstrakt;TEF DE;110.785.000
+222;05A 3,6 GHz;1x10 MHz abstrakt;Vodafone;105.822.000
+222;06A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.573.000
+222;07A 3,6 GHz;1x10 MHz abstrakt;TEF DE;104.841.000
+222;08A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;104.716.000
+222;09A 3,6 GHz;1x10 MHz abstrakt;Telekom;105.074.000
+222;10A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.316.000
+222;11A 3,6 GHz;1x10 MHz abstrakt;Vodafone;105.522.000
+222;12A 3,6 GHz;1x10 MHz abstrakt;Telekom;104.815.000
+222;13A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;103.874.000
+222;14A 3,6 GHz;1x10 MHz abstrakt;Telekom;104.968.000
+222;15A 3,6 GHz;1x10 MHz abstrakt;Vodafone;104.318.000
+222;16A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;105.292.000
+222;17A 3,6 GHz;1x10 MHz abstrakt;TEF DE;105.292.000
+222;18A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;104.264.000
+222;19A 3,6 GHz;1x10 MHz abstrakt;Telekom;103.955.000
+222;20A 3,6 GHz;1x10 MHz abstrakt;Telekom;103.955.000
+222;21A 3,6 GHz;1x10 MHz abstrakt;Telekom;105.086.000
+222;22A 3,6 GHz;1x10 MHz abstrakt;Telekom;104.803.000
+222;23A 3,6 GHz;1x10 MHz abstrakt;TEF DE;104.268.000
+222;24A 3,6 GHz;1x10 MHz abstrakt;Vodafone;105.209.000
+222;25A 3,6 GHz;1x10 MHz abstrakt;Telekom;105.199.000
+222;26A 3,6 GHz;1x10 MHz abstrakt;Vodafone;104.798.000
+222;27A 3,6 GHz;1x10 MHz abstrakt;TEF DE;105.315.000
+222;28A 3,6 GHz;1x10 MHz abstrakt;TEF DE;113.873.000
+222;29K 3,6 GHz;1x10 MHz konkret;Telekom;127.597.000
+223;01K 3,6 GHz;1x20 MHz konkret;Vodafone;44.373.000
+223;02A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;105.343.000
+223;03A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;104.829.000
+223;04A 3,6 GHz;1x10 MHz abstrakt;TEF DE;110.785.000
+223;05A 3,6 GHz;1x10 MHz abstrakt;Vodafone;105.822.000
+223;06A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.573.000
+223;07A 3,6 GHz;1x10 MHz abstrakt;TEF DE;104.841.000
+223;08A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;104.716.000
+223;09A 3,6 GHz;1x10 MHz abstrakt;Telekom;105.074.000
+223;10A 3,6 GHz;1x10 MHz abstrakt;TEF DE;105.382.000
+223;11A 3,6 GHz;1x10 MHz abstrakt;Vodafone;105.522.000
+223;12A 3,6 GHz;1x10 MHz abstrakt;Telekom;104.815.000
+223;13A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;103.874.000
+223;14A 3,6 GHz;1x10 MHz abstrakt;Telekom;104.968.000
+223;15A 3,6 GHz;1x10 MHz abstrakt;Vodafone;104.318.000
+223;16A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;105.292.000
+223;17A 3,6 GHz;1x10 MHz abstrakt;TEF DE;105.292.000
+223;18A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;104.264.000
+223;19A 3,6 GHz;1x10 MHz abstrakt;Telekom;103.955.000
+223;20A 3,6 GHz;1x10 MHz abstrakt;Telekom;103.955.000
+223;21A 3,6 GHz;1x10 MHz abstrakt;Telekom;105.086.000
+223;22A 3,6 GHz;1x10 MHz abstrakt;Telekom;104.803.000
+223;23A 3,6 GHz;1x10 MHz abstrakt;TEF DE;104.268.000
+223;24A 3,6 GHz;1x10 MHz abstrakt;Vodafone;105.209.000
+223;25A 3,6 GHz;1x10 MHz abstrakt;Telekom;105.199.000
+223;26A 3,6 GHz;1x10 MHz abstrakt;Vodafone;104.798.000
+223;27A 3,6 GHz;1x10 MHz abstrakt;TEF DE;105.315.000
+223;28A 3,6 GHz;1x10 MHz abstrakt;TEF DE;113.873.000
+223;29K 3,6 GHz;1x10 MHz konkret;Telekom;127.597.000
+224;01K 3,6 GHz;1x20 MHz konkret;Vodafone;44.373.000
+224;02A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;105.343.000
+224;03A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;104.829.000
+224;04A 3,6 GHz;1x10 MHz abstrakt;TEF DE;110.785.000
+224;05A 3,6 GHz;1x10 MHz abstrakt;Vodafone;105.822.000
+224;06A 3,6 GHz;1x10 MHz abstrakt;Vodafone;103.573.000
+224;07A 3,6 GHz;1x10 MHz abstrakt;TEF DE;104.841.000
+224;08A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;104.716.000
+224;09A 3,6 GHz;1x10 MHz abstrakt;Telekom;105.074.000
+224;10A 3,6 GHz;1x10 MHz abstrakt;TEF DE;105.382.000
+224;11A 3,6 GHz;1x10 MHz abstrakt;Vodafone;105.522.000
+224;12A 3,6 GHz;1x10 MHz abstrakt;Telekom;104.815.000
+224;13A 3,6 GHz;1x10 MHz abstrakt;Vodafone;105.951.000
+224;14A 3,6 GHz;1x10 MHz abstrakt;Telekom;104.968.000
+224;15A 3,6 GHz;1x10 MHz abstrakt;Vodafone;104.318.000
+224;16A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;105.292.000
+224;17A 3,6 GHz;1x10 MHz abstrakt;TEF DE;105.292.000
+224;18A 3,6 GHz;1x10 MHz abstrakt;1und1 DRI;104.264.000
+224;19A 3,6 GHz;1x10 MHz abstrakt;Telekom;103.955.000
+224;20A 3,6 GHz;1x10 MHz abstrakt;Telekom;103.955.000
+224;21A 3,6 GHz;1x10 MHz abstrakt;Telekom;105.086.000
+224;22A 3,6 GHz;1x10 MHz abstrakt;Telekom;104.803.000
+224;23A 3,6 GHz;1x10 MHz abstrakt;TEF DE;104.268.000
+224;24A 3,6 GHz;1x10 MHz abstrakt;Vodafone;105.209.000
+224;25A 3,6 GHz;1x10 MHz abstrakt;Telekom;105.199.000
+224;26A 3,6 GHz;1x10 MHz abstrakt;Vodafone;104.798.000
+224;27A 3,6 GHz;1x10 MHz abstrakt;TEF DE;105.315.000
+224;28A 3,6 GHz;1x10 MHz abstrakt;TEF DE;113.873.000
+224;29K 3,6 GHz;1x10 MHz konkret;Telekom;127.597.000
