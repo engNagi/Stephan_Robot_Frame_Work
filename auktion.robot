@@ -44,6 +44,7 @@ Get All Data
     [Documentation]     Go to the Webpage "https://www.bundesnetzagentur.de" and collect all informations
 
     Open Browser
+    Check existence of vars.txt
     Navigate To Main Webpage
     Get ammount of Rounds
     Gather Data

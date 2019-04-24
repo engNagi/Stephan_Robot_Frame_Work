@@ -11,7 +11,7 @@ pipeline {
                 sh 'pwd'
                 sh 'echo make output Dir'
                 sh 'mkdir -p $WORKSPACE/Output'
-                sh 'robot -d ./output/ $HOME/.jenkins/workspace/Robot_Frame_Work/auktion.robot'
+                sh 'robot -d ./Output/ $HOME/.jenkins/workspace/Robot_Frame_Work/auktion.robot'
             }
         }
         stage('Publish Robot-Test Results')
@@ -23,7 +23,7 @@ pipeline {
                             logFileName: 'log.html',
                             otherFiles: '',
                             outputFileName: 'output.xml',
-                            outputPath: './output/',
+                            outputPath: './Output/',
                             passThreshold: 100,
                             reportFileName: 'report.html',
                             unstableThreshold: 0]);
