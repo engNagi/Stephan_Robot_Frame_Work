@@ -2794,3 +2794,339 @@
 233;10A 2 GHz (2026);2x5 MHz abstrakt;Vodafone;163.236.000
 233;11A 2 GHz (2026);2x5 MHz abstrakt;1und1 DRI;162.243.000
 233;12A 2 GHz (2026);2x5 MHz abstrakt;1und1 DRI;161.626.000
+234;01A 2 GHz;2x5 MHz abstrakt;Telekom;213.312.000
+234;02A 2 GHz;2x5 MHz abstrakt;Telekom;213.381.000
+234;03A 2 GHz;2x5 MHz abstrakt;Vodafone;211.652.000
+234;04A 2 GHz;2x5 MHz abstrakt;TEF DE;211.274.000
+234;05A 2 GHz;2x5 MHz abstrakt;Vodafone;212.237.000
+234;06A 2 GHz;2x5 MHz abstrakt;Telekom;211.157.000
+234;07A 2 GHz;2x5 MHz abstrakt;Vodafone;213.816.000
+234;08A 2 GHz;2x5 MHz abstrakt;Telekom;213.670.000
+234;09A 2 GHz (2026);2x5 MHz abstrakt;TEF DE;163.571.000
+234;10A 2 GHz (2026);2x5 MHz abstrakt;Vodafone;163.236.000
+234;11A 2 GHz (2026);2x5 MHz abstrakt;1und1 DRI;162.243.000
+234;12A 2 GHz (2026);2x5 MHz abstrakt;1und1 DRI;161.626.000
+235;01A 2 GHz;2x5 MHz abstrakt;Telekom;213.312.000
+235;02A 2 GHz;2x5 MHz abstrakt;Telekom;213.381.000
+235;03A 2 GHz;2x5 MHz abstrakt;Vodafone;211.652.000
+235;04A 2 GHz;2x5 MHz abstrakt;TEF DE;211.274.000
+235;05A 2 GHz;2x5 MHz abstrakt;Vodafone;212.237.000
+235;06A 2 GHz;2x5 MHz abstrakt;Telekom;211.157.000
+235;07A 2 GHz;2x5 MHz abstrakt;Vodafone;213.816.000
+235;08A 2 GHz;2x5 MHz abstrakt;Telekom;213.670.000
+235;09A 2 GHz (2026);2x5 MHz abstrakt;TEF DE;163.571.000
+235;10A 2 GHz (2026);2x5 MHz abstrakt;Vodafone;163.236.000
+235;11A 2 GHz (2026);2x5 MHz abstrakt;1und1 DRI;162.243.000
+235;12A 2 GHz (2026);2x5 MHz abstrakt;1und1 DRI;161.626.000
+236;01A 2 GHz;2x5 MHz abstrakt;Telekom;213.312.000
+236;02A 2 GHz;2x5 MHz abstrakt;Telekom;213.381.000
+236;03A 2 GHz;2x5 MHz abstrakt;Vodafone;211.652.000
+236;04A 2 GHz;2x5 MHz abstrakt;TEF DE;211.274.000
+236;05A 2 GHz;2x5 MHz abstrakt;Vodafone;212.237.000
+236;06A 2 GHz;2x5 MHz abstrakt;Telekom;211.157.000
+236;07A 2 GHz;2x5 MHz abstrakt;Vodafone;213.816.000
+236;08A 2 GHz;2x5 MHz abstrakt;Telekom;213.670.000
+236;09A 2 GHz (2026);2x5 MHz abstrakt;TEF DE;163.571.000
+236;10A 2 GHz (2026);2x5 MHz abstrakt;Vodafone;163.236.000
+236;11A 2 GHz (2026);2x5 MHz abstrakt;1und1 DRI;162.243.000
+236;12A 2 GHz (2026);2x5 MHz abstrakt;1und1 DRI;161.626.000
+237;01A 2 GHz;2x5 MHz abstrakt;Telekom;213.312.000
+237;02A 2 GHz;2x5 MHz abstrakt;Telekom;213.381.000
+237;03A 2 GHz;2x5 MHz abstrakt;Vodafone;211.652.000
+237;04A 2 GHz;2x5 MHz abstrakt;TEF DE;211.274.000
+237;05A 2 GHz;2x5 MHz abstrakt;Vodafone;212.237.000
+237;06A 2 GHz;2x5 MHz abstrakt;Telekom;211.157.000
+237;07A 2 GHz;2x5 MHz abstrakt;Vodafone;213.816.000
+237;08A 2 GHz;2x5 MHz abstrakt;Telekom;213.670.000
+237;09A 2 GHz (2026);2x5 MHz abstrakt;TEF DE;163.571.000
+237;10A 2 GHz (2026);2x5 MHz abstrakt;Vodafone;163.236.000
+237;11A 2 GHz (2026);2x5 MHz abstrakt;1und1 DRI;162.243.000
+237;12A 2 GHz (2026);2x5 MHz abstrakt;1und1 DRI;161.626.000
+238;01A 2 GHz;2x5 MHz abstrakt;Telekom;213.312.000
+238;02A 2 GHz;2x5 MHz abstrakt;Telekom;213.381.000
+238;03A 2 GHz;2x5 MHz abstrakt;Vodafone;211.652.000
+238;04A 2 GHz;2x5 MHz abstrakt;TEF DE;211.274.000
+238;05A 2 GHz;2x5 MHz abstrakt;Vodafone;212.237.000
+238;06A 2 GHz;2x5 MHz abstrakt;Telekom;211.157.000
+238;07A 2 GHz;2x5 MHz abstrakt;Vodafone;213.816.000
+238;08A 2 GHz;2x5 MHz abstrakt;Telekom;213.670.000
+238;09A 2 GHz (2026);2x5 MHz abstrakt;TEF DE;163.571.000
+238;10A 2 GHz (2026);2x5 MHz abstrakt;Vodafone;163.236.000
+238;11A 2 GHz (2026);2x5 MHz abstrakt;1und1 DRI;162.243.000
+238;12A 2 GHz (2026);2x5 MHz abstrakt;1und1 DRI;161.626.000
+239;01A 2 GHz;2x5 MHz abstrakt;Telekom;213.312.000
+239;02A 2 GHz;2x5 MHz abstrakt;Telekom;213.381.000
+239;03A 2 GHz;2x5 MHz abstrakt;Vodafone;211.652.000
+239;04A 2 GHz;2x5 MHz abstrakt;TEF DE;211.274.000
+239;05A 2 GHz;2x5 MHz abstrakt;Vodafone;212.237.000
+239;06A 2 GHz;2x5 MHz abstrakt;Telekom;211.157.000
+239;07A 2 GHz;2x5 MHz abstrakt;Vodafone;213.816.000
+239;08A 2 GHz;2x5 MHz abstrakt;Telekom;213.670.000
+239;09A 2 GHz (2026);2x5 MHz abstrakt;TEF DE;163.571.000
+239;10A 2 GHz (2026);2x5 MHz abstrakt;Vodafone;163.236.000
+239;11A 2 GHz (2026);2x5 MHz abstrakt;1und1 DRI;162.243.000
+239;12A 2 GHz (2026);2x5 MHz abstrakt;1und1 DRI;161.626.000
+240;01A 2 GHz;2x5 MHz abstrakt;Telekom;213.312.000
+240;02A 2 GHz;2x5 MHz abstrakt;Telekom;213.381.000
+240;03A 2 GHz;2x5 MHz abstrakt;Vodafone;211.652.000
+240;04A 2 GHz;2x5 MHz abstrakt;TEF DE;211.274.000
+240;05A 2 GHz;2x5 MHz abstrakt;Vodafone;212.237.000
+240;06A 2 GHz;2x5 MHz abstrakt;Telekom;211.157.000
+240;07A 2 GHz;2x5 MHz abstrakt;Vodafone;213.816.000
+240;08A 2 GHz;2x5 MHz abstrakt;Telekom;213.670.000
+240;09A 2 GHz (2026);2x5 MHz abstrakt;TEF DE;163.571.000
+240;10A 2 GHz (2026);2x5 MHz abstrakt;Vodafone;163.236.000
+240;11A 2 GHz (2026);2x5 MHz abstrakt;1und1 DRI;162.243.000
+240;12A 2 GHz (2026);2x5 MHz abstrakt;1und1 DRI;161.626.000
+241;01A 2 GHz;2x5 MHz abstrakt;Telekom;213.312.000
+241;02A 2 GHz;2x5 MHz abstrakt;Telekom;213.381.000
+241;03A 2 GHz;2x5 MHz abstrakt;Vodafone;211.652.000
+241;04A 2 GHz;2x5 MHz abstrakt;TEF DE;211.274.000
+241;05A 2 GHz;2x5 MHz abstrakt;Vodafone;212.237.000
+241;06A 2 GHz;2x5 MHz abstrakt;Telekom;211.157.000
+241;07A 2 GHz;2x5 MHz abstrakt;Vodafone;213.816.000
+241;08A 2 GHz;2x5 MHz abstrakt;Telekom;213.670.000
+241;09A 2 GHz (2026);2x5 MHz abstrakt;TEF DE;163.571.000
+241;10A 2 GHz (2026);2x5 MHz abstrakt;Vodafone;163.236.000
+241;11A 2 GHz (2026);2x5 MHz abstrakt;1und1 DRI;162.243.000
+241;12A 2 GHz (2026);2x5 MHz abstrakt;1und1 DRI;161.626.000
+242;01A 2 GHz;2x5 MHz abstrakt;Telekom;213.312.000
+242;02A 2 GHz;2x5 MHz abstrakt;Telekom;213.381.000
+242;03A 2 GHz;2x5 MHz abstrakt;Vodafone;211.652.000
+242;04A 2 GHz;2x5 MHz abstrakt;TEF DE;211.274.000
+242;05A 2 GHz;2x5 MHz abstrakt;Vodafone;212.237.000
+242;06A 2 GHz;2x5 MHz abstrakt;Telekom;211.157.000
+242;07A 2 GHz;2x5 MHz abstrakt;Vodafone;213.816.000
+242;08A 2 GHz;2x5 MHz abstrakt;Telekom;213.670.000
+242;09A 2 GHz (2026);2x5 MHz abstrakt;TEF DE;163.571.000
+242;10A 2 GHz (2026);2x5 MHz abstrakt;Vodafone;163.236.000
+242;11A 2 GHz (2026);2x5 MHz abstrakt;1und1 DRI;162.243.000
+242;12A 2 GHz (2026);2x5 MHz abstrakt;1und1 DRI;161.626.000
+243;01A 2 GHz;2x5 MHz abstrakt;Telekom;213.312.000
+243;02A 2 GHz;2x5 MHz abstrakt;Telekom;213.381.000
+243;03A 2 GHz;2x5 MHz abstrakt;Vodafone;211.652.000
+243;04A 2 GHz;2x5 MHz abstrakt;TEF DE;211.274.000
+243;05A 2 GHz;2x5 MHz abstrakt;Vodafone;212.237.000
+243;06A 2 GHz;2x5 MHz abstrakt;Telekom;211.157.000
+243;07A 2 GHz;2x5 MHz abstrakt;Vodafone;213.816.000
+243;08A 2 GHz;2x5 MHz abstrakt;Telekom;213.670.000
+243;09A 2 GHz (2026);2x5 MHz abstrakt;TEF DE;163.571.000
+243;10A 2 GHz (2026);2x5 MHz abstrakt;Vodafone;163.236.000
+243;11A 2 GHz (2026);2x5 MHz abstrakt;1und1 DRI;162.243.000
+243;12A 2 GHz (2026);2x5 MHz abstrakt;1und1 DRI;161.626.000
+244;01A 2 GHz;2x5 MHz abstrakt;Telekom;213.312.000
+244;02A 2 GHz;2x5 MHz abstrakt;Telekom;213.381.000
+244;03A 2 GHz;2x5 MHz abstrakt;Vodafone;211.652.000
+244;04A 2 GHz;2x5 MHz abstrakt;TEF DE;211.274.000
+244;05A 2 GHz;2x5 MHz abstrakt;Vodafone;212.237.000
+244;06A 2 GHz;2x5 MHz abstrakt;Telekom;211.157.000
+244;07A 2 GHz;2x5 MHz abstrakt;Vodafone;213.816.000
+244;08A 2 GHz;2x5 MHz abstrakt;Telekom;213.670.000
+244;09A 2 GHz (2026);2x5 MHz abstrakt;TEF DE;163.571.000
+244;10A 2 GHz (2026);2x5 MHz abstrakt;Vodafone;163.236.000
+244;11A 2 GHz (2026);2x5 MHz abstrakt;1und1 DRI;162.243.000
+244;12A 2 GHz (2026);2x5 MHz abstrakt;1und1 DRI;161.626.000
+245;01A 2 GHz;2x5 MHz abstrakt;Telekom;213.312.000
+245;02A 2 GHz;2x5 MHz abstrakt;Telekom;213.381.000
+245;03A 2 GHz;2x5 MHz abstrakt;Vodafone;211.652.000
+245;04A 2 GHz;2x5 MHz abstrakt;TEF DE;211.274.000
+245;05A 2 GHz;2x5 MHz abstrakt;Vodafone;212.237.000
+245;06A 2 GHz;2x5 MHz abstrakt;Telekom;211.157.000
+245;07A 2 GHz;2x5 MHz abstrakt;Vodafone;213.816.000
+245;08A 2 GHz;2x5 MHz abstrakt;Telekom;213.670.000
+245;09A 2 GHz (2026);2x5 MHz abstrakt;TEF DE;163.571.000
+245;10A 2 GHz (2026);2x5 MHz abstrakt;Vodafone;163.236.000
+245;11A 2 GHz (2026);2x5 MHz abstrakt;1und1 DRI;162.243.000
+245;12A 2 GHz (2026);2x5 MHz abstrakt;1und1 DRI;161.626.000
+246;01A 2 GHz;2x5 MHz abstrakt;Telekom;213.312.000
+246;02A 2 GHz;2x5 MHz abstrakt;Telekom;213.381.000
+246;03A 2 GHz;2x5 MHz abstrakt;Vodafone;211.652.000
+246;04A 2 GHz;2x5 MHz abstrakt;TEF DE;211.274.000
+246;05A 2 GHz;2x5 MHz abstrakt;Vodafone;212.237.000
+246;06A 2 GHz;2x5 MHz abstrakt;Telekom;211.157.000
+246;07A 2 GHz;2x5 MHz abstrakt;Vodafone;213.816.000
+246;08A 2 GHz;2x5 MHz abstrakt;Telekom;213.670.000
+246;09A 2 GHz (2026);2x5 MHz abstrakt;TEF DE;163.571.000
+246;10A 2 GHz (2026);2x5 MHz abstrakt;Vodafone;163.236.000
+246;11A 2 GHz (2026);2x5 MHz abstrakt;1und1 DRI;162.243.000
+246;12A 2 GHz (2026);2x5 MHz abstrakt;1und1 DRI;161.626.000
+247;01A 2 GHz;2x5 MHz abstrakt;Telekom;213.312.000
+247;02A 2 GHz;2x5 MHz abstrakt;Telekom;213.381.000
+247;03A 2 GHz;2x5 MHz abstrakt;Vodafone;211.652.000
+247;04A 2 GHz;2x5 MHz abstrakt;TEF DE;211.274.000
+247;05A 2 GHz;2x5 MHz abstrakt;Vodafone;212.237.000
+247;06A 2 GHz;2x5 MHz abstrakt;Telekom;211.157.000
+247;07A 2 GHz;2x5 MHz abstrakt;Vodafone;213.816.000
+247;08A 2 GHz;2x5 MHz abstrakt;Telekom;213.670.000
+247;09A 2 GHz (2026);2x5 MHz abstrakt;TEF DE;163.571.000
+247;10A 2 GHz (2026);2x5 MHz abstrakt;Vodafone;163.236.000
+247;11A 2 GHz (2026);2x5 MHz abstrakt;1und1 DRI;162.243.000
+247;12A 2 GHz (2026);2x5 MHz abstrakt;1und1 DRI;161.626.000
+248;01A 2 GHz;2x5 MHz abstrakt;Telekom;213.312.000
+248;02A 2 GHz;2x5 MHz abstrakt;Telekom;213.381.000
+248;03A 2 GHz;2x5 MHz abstrakt;Vodafone;211.652.000
+248;04A 2 GHz;2x5 MHz abstrakt;TEF DE;211.274.000
+248;05A 2 GHz;2x5 MHz abstrakt;Vodafone;212.237.000
+248;06A 2 GHz;2x5 MHz abstrakt;Telekom;211.157.000
+248;07A 2 GHz;2x5 MHz abstrakt;Vodafone;213.816.000
+248;08A 2 GHz;2x5 MHz abstrakt;Telekom;213.670.000
+248;09A 2 GHz (2026);2x5 MHz abstrakt;TEF DE;163.571.000
+248;10A 2 GHz (2026);2x5 MHz abstrakt;Vodafone;163.236.000
+248;11A 2 GHz (2026);2x5 MHz abstrakt;1und1 DRI;162.243.000
+248;12A 2 GHz (2026);2x5 MHz abstrakt;1und1 DRI;161.626.000
+249;01A 2 GHz;2x5 MHz abstrakt;Telekom;213.312.000
+249;02A 2 GHz;2x5 MHz abstrakt;Telekom;213.381.000
+249;03A 2 GHz;2x5 MHz abstrakt;Vodafone;211.652.000
+249;04A 2 GHz;2x5 MHz abstrakt;TEF DE;211.274.000
+249;05A 2 GHz;2x5 MHz abstrakt;Vodafone;212.237.000
+249;06A 2 GHz;2x5 MHz abstrakt;Telekom;211.157.000
+249;07A 2 GHz;2x5 MHz abstrakt;Vodafone;213.816.000
+249;08A 2 GHz;2x5 MHz abstrakt;Telekom;213.670.000
+249;09A 2 GHz (2026);2x5 MHz abstrakt;TEF DE;163.571.000
+249;10A 2 GHz (2026);2x5 MHz abstrakt;Vodafone;163.236.000
+249;11A 2 GHz (2026);2x5 MHz abstrakt;1und1 DRI;162.243.000
+249;12A 2 GHz (2026);2x5 MHz abstrakt;1und1 DRI;161.626.000
+250;01A 2 GHz;2x5 MHz abstrakt;Telekom;213.312.000
+250;02A 2 GHz;2x5 MHz abstrakt;Telekom;213.381.000
+250;03A 2 GHz;2x5 MHz abstrakt;Vodafone;211.652.000
+250;04A 2 GHz;2x5 MHz abstrakt;TEF DE;211.274.000
+250;05A 2 GHz;2x5 MHz abstrakt;Vodafone;212.237.000
+250;06A 2 GHz;2x5 MHz abstrakt;Telekom;211.157.000
+250;07A 2 GHz;2x5 MHz abstrakt;Vodafone;213.816.000
+250;08A 2 GHz;2x5 MHz abstrakt;Telekom;213.670.000
+250;09A 2 GHz (2026);2x5 MHz abstrakt;TEF DE;163.571.000
+250;10A 2 GHz (2026);2x5 MHz abstrakt;Vodafone;163.236.000
+250;11A 2 GHz (2026);2x5 MHz abstrakt;1und1 DRI;162.243.000
+250;12A 2 GHz (2026);2x5 MHz abstrakt;1und1 DRI;161.626.000
+251;01A 2 GHz;2x5 MHz abstrakt;Telekom;213.312.000
+251;02A 2 GHz;2x5 MHz abstrakt;Telekom;213.381.000
+251;03A 2 GHz;2x5 MHz abstrakt;Vodafone;211.652.000
+251;04A 2 GHz;2x5 MHz abstrakt;TEF DE;211.274.000
+251;05A 2 GHz;2x5 MHz abstrakt;Vodafone;212.237.000
+251;06A 2 GHz;2x5 MHz abstrakt;Telekom;211.157.000
+251;07A 2 GHz;2x5 MHz abstrakt;Vodafone;213.816.000
+251;08A 2 GHz;2x5 MHz abstrakt;Telekom;213.670.000
+251;09A 2 GHz (2026);2x5 MHz abstrakt;TEF DE;163.571.000
+251;10A 2 GHz (2026);2x5 MHz abstrakt;Vodafone;163.236.000
+251;11A 2 GHz (2026);2x5 MHz abstrakt;1und1 DRI;162.243.000
+251;12A 2 GHz (2026);2x5 MHz abstrakt;1und1 DRI;161.626.000
+252;01A 2 GHz;2x5 MHz abstrakt;Telekom;213.312.000
+252;02A 2 GHz;2x5 MHz abstrakt;Telekom;213.381.000
+252;03A 2 GHz;2x5 MHz abstrakt;Vodafone;211.652.000
+252;04A 2 GHz;2x5 MHz abstrakt;TEF DE;211.274.000
+252;05A 2 GHz;2x5 MHz abstrakt;Vodafone;212.237.000
+252;06A 2 GHz;2x5 MHz abstrakt;Telekom;211.157.000
+252;07A 2 GHz;2x5 MHz abstrakt;Vodafone;213.816.000
+252;08A 2 GHz;2x5 MHz abstrakt;Telekom;213.670.000
+252;09A 2 GHz (2026);2x5 MHz abstrakt;TEF DE;163.571.000
+252;10A 2 GHz (2026);2x5 MHz abstrakt;Vodafone;163.236.000
+252;11A 2 GHz (2026);2x5 MHz abstrakt;1und1 DRI;162.243.000
+252;12A 2 GHz (2026);2x5 MHz abstrakt;1und1 DRI;161.626.000
+253;01A 2 GHz;2x5 MHz abstrakt;Telekom;213.312.000
+253;02A 2 GHz;2x5 MHz abstrakt;Telekom;213.381.000
+253;03A 2 GHz;2x5 MHz abstrakt;Vodafone;211.652.000
+253;04A 2 GHz;2x5 MHz abstrakt;TEF DE;211.274.000
+253;05A 2 GHz;2x5 MHz abstrakt;Vodafone;212.237.000
+253;06A 2 GHz;2x5 MHz abstrakt;Telekom;211.157.000
+253;07A 2 GHz;2x5 MHz abstrakt;Vodafone;213.816.000
+253;08A 2 GHz;2x5 MHz abstrakt;Telekom;213.670.000
+253;09A 2 GHz (2026);2x5 MHz abstrakt;TEF DE;163.571.000
+253;10A 2 GHz (2026);2x5 MHz abstrakt;Vodafone;163.236.000
+253;11A 2 GHz (2026);2x5 MHz abstrakt;1und1 DRI;162.243.000
+253;12A 2 GHz (2026);2x5 MHz abstrakt;1und1 DRI;161.626.000
+254;01A 2 GHz;2x5 MHz abstrakt;Telekom;213.312.000
+254;02A 2 GHz;2x5 MHz abstrakt;Telekom;213.381.000
+254;03A 2 GHz;2x5 MHz abstrakt;Vodafone;211.652.000
+254;04A 2 GHz;2x5 MHz abstrakt;TEF DE;211.274.000
+254;05A 2 GHz;2x5 MHz abstrakt;Vodafone;212.237.000
+254;06A 2 GHz;2x5 MHz abstrakt;Telekom;211.157.000
+254;07A 2 GHz;2x5 MHz abstrakt;Vodafone;213.816.000
+254;08A 2 GHz;2x5 MHz abstrakt;Telekom;213.670.000
+254;09A 2 GHz (2026);2x5 MHz abstrakt;TEF DE;163.571.000
+254;10A 2 GHz (2026);2x5 MHz abstrakt;Vodafone;163.236.000
+254;11A 2 GHz (2026);2x5 MHz abstrakt;1und1 DRI;162.243.000
+254;12A 2 GHz (2026);2x5 MHz abstrakt;1und1 DRI;161.626.000
+255;01A 2 GHz;2x5 MHz abstrakt;Telekom;213.312.000
+255;02A 2 GHz;2x5 MHz abstrakt;Telekom;213.381.000
+255;03A 2 GHz;2x5 MHz abstrakt;Vodafone;211.652.000
+255;04A 2 GHz;2x5 MHz abstrakt;TEF DE;211.274.000
+255;05A 2 GHz;2x5 MHz abstrakt;Vodafone;212.237.000
+255;06A 2 GHz;2x5 MHz abstrakt;Telekom;211.157.000
+255;07A 2 GHz;2x5 MHz abstrakt;Vodafone;213.816.000
+255;08A 2 GHz;2x5 MHz abstrakt;Telekom;213.670.000
+255;09A 2 GHz (2026);2x5 MHz abstrakt;TEF DE;163.571.000
+255;10A 2 GHz (2026);2x5 MHz abstrakt;Vodafone;163.236.000
+255;11A 2 GHz (2026);2x5 MHz abstrakt;1und1 DRI;162.243.000
+255;12A 2 GHz (2026);2x5 MHz abstrakt;1und1 DRI;161.626.000
+256;01A 2 GHz;2x5 MHz abstrakt;Telekom;213.312.000
+256;02A 2 GHz;2x5 MHz abstrakt;Telekom;213.381.000
+256;03A 2 GHz;2x5 MHz abstrakt;Vodafone;211.652.000
+256;04A 2 GHz;2x5 MHz abstrakt;TEF DE;211.274.000
+256;05A 2 GHz;2x5 MHz abstrakt;Vodafone;212.237.000
+256;06A 2 GHz;2x5 MHz abstrakt;Telekom;211.157.000
+256;07A 2 GHz;2x5 MHz abstrakt;Vodafone;213.816.000
+256;08A 2 GHz;2x5 MHz abstrakt;Telekom;213.670.000
+256;09A 2 GHz (2026);2x5 MHz abstrakt;TEF DE;163.571.000
+256;10A 2 GHz (2026);2x5 MHz abstrakt;Vodafone;163.236.000
+256;11A 2 GHz (2026);2x5 MHz abstrakt;1und1 DRI;162.243.000
+256;12A 2 GHz (2026);2x5 MHz abstrakt;1und1 DRI;161.626.000
+257;01A 2 GHz;2x5 MHz abstrakt;Telekom;213.312.000
+257;02A 2 GHz;2x5 MHz abstrakt;Telekom;213.381.000
+257;03A 2 GHz;2x5 MHz abstrakt;Vodafone;211.652.000
+257;04A 2 GHz;2x5 MHz abstrakt;TEF DE;211.274.000
+257;05A 2 GHz;2x5 MHz abstrakt;Vodafone;212.237.000
+257;06A 2 GHz;2x5 MHz abstrakt;Telekom;211.157.000
+257;07A 2 GHz;2x5 MHz abstrakt;Vodafone;213.816.000
+257;08A 2 GHz;2x5 MHz abstrakt;Telekom;213.670.000
+257;09A 2 GHz (2026);2x5 MHz abstrakt;TEF DE;163.571.000
+257;10A 2 GHz (2026);2x5 MHz abstrakt;Vodafone;163.236.000
+257;11A 2 GHz (2026);2x5 MHz abstrakt;1und1 DRI;162.243.000
+257;12A 2 GHz (2026);2x5 MHz abstrakt;1und1 DRI;161.626.000
+258;01A 2 GHz;2x5 MHz abstrakt;Telekom;213.312.000
+258;02A 2 GHz;2x5 MHz abstrakt;Telekom;213.381.000
+258;03A 2 GHz;2x5 MHz abstrakt;Vodafone;211.652.000
+258;04A 2 GHz;2x5 MHz abstrakt;TEF DE;211.274.000
+258;05A 2 GHz;2x5 MHz abstrakt;Vodafone;212.237.000
+258;06A 2 GHz;2x5 MHz abstrakt;Telekom;211.157.000
+258;07A 2 GHz;2x5 MHz abstrakt;Vodafone;213.816.000
+258;08A 2 GHz;2x5 MHz abstrakt;Telekom;213.670.000
+258;09A 2 GHz (2026);2x5 MHz abstrakt;TEF DE;163.571.000
+258;10A 2 GHz (2026);2x5 MHz abstrakt;Vodafone;163.236.000
+258;11A 2 GHz (2026);2x5 MHz abstrakt;1und1 DRI;162.243.000
+258;12A 2 GHz (2026);2x5 MHz abstrakt;1und1 DRI;161.626.000
+259;01A 2 GHz;2x5 MHz abstrakt;Telekom;213.312.000
+259;02A 2 GHz;2x5 MHz abstrakt;Telekom;213.381.000
+259;03A 2 GHz;2x5 MHz abstrakt;Vodafone;211.652.000
+259;04A 2 GHz;2x5 MHz abstrakt;TEF DE;211.274.000
+259;05A 2 GHz;2x5 MHz abstrakt;Vodafone;212.237.000
+259;06A 2 GHz;2x5 MHz abstrakt;Telekom;211.157.000
+259;07A 2 GHz;2x5 MHz abstrakt;Vodafone;213.816.000
+259;08A 2 GHz;2x5 MHz abstrakt;Telekom;213.670.000
+259;09A 2 GHz (2026);2x5 MHz abstrakt;TEF DE;163.571.000
+259;10A 2 GHz (2026);2x5 MHz abstrakt;Vodafone;163.236.000
+259;11A 2 GHz (2026);2x5 MHz abstrakt;1und1 DRI;162.243.000
+259;12A 2 GHz (2026);2x5 MHz abstrakt;1und1 DRI;161.626.000
+260;01A 2 GHz;2x5 MHz abstrakt;Telekom;213.312.000
+260;02A 2 GHz;2x5 MHz abstrakt;Telekom;213.381.000
+260;03A 2 GHz;2x5 MHz abstrakt;Vodafone;211.652.000
+260;04A 2 GHz;2x5 MHz abstrakt;TEF DE;211.274.000
+260;05A 2 GHz;2x5 MHz abstrakt;Vodafone;212.237.000
+260;06A 2 GHz;2x5 MHz abstrakt;Telekom;211.157.000
+260;07A 2 GHz;2x5 MHz abstrakt;Vodafone;213.816.000
+260;08A 2 GHz;2x5 MHz abstrakt;Telekom;213.670.000
+260;09A 2 GHz (2026);2x5 MHz abstrakt;TEF DE;163.571.000
+260;10A 2 GHz (2026);2x5 MHz abstrakt;Vodafone;163.236.000
+260;11A 2 GHz (2026);2x5 MHz abstrakt;1und1 DRI;162.243.000
+260;12A 2 GHz (2026);2x5 MHz abstrakt;1und1 DRI;161.626.000
+261;01A 2 GHz;2x5 MHz abstrakt;Telekom;213.312.000
+261;02A 2 GHz;2x5 MHz abstrakt;Telekom;213.381.000
+261;03A 2 GHz;2x5 MHz abstrakt;Vodafone;211.652.000
+261;04A 2 GHz;2x5 MHz abstrakt;TEF DE;211.274.000
+261;05A 2 GHz;2x5 MHz abstrakt;Vodafone;212.237.000
+261;06A 2 GHz;2x5 MHz abstrakt;Telekom;211.157.000
+261;07A 2 GHz;2x5 MHz abstrakt;Vodafone;213.816.000
+261;08A 2 GHz;2x5 MHz abstrakt;Telekom;213.670.000
+261;09A 2 GHz (2026);2x5 MHz abstrakt;TEF DE;163.571.000
+261;10A 2 GHz (2026);2x5 MHz abstrakt;Vodafone;163.236.000
+261;11A 2 GHz (2026);2x5 MHz abstrakt;1und1 DRI;162.243.000
+261;12A 2 GHz (2026);2x5 MHz abstrakt;1und1 DRI;161.626.000

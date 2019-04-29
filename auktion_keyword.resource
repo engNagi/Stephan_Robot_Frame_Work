@@ -7,11 +7,13 @@
 #  ███████║███████╗   ██║      ██║   ██║██║ ╚████║╚██████╔╝███████║
 #  ╚══════╝╚══════╝   ╚═╝      ╚═╝   ╚═╝╚═╝  ╚═══╝ ╚═════╝ ╚══════╝
 *** Settings ***
+
 Documentation     Frequenzauktion 5G 2019 Datacollector with ${BROWSER}
 Library           SeleniumLibrary
 Library           OperatingSystem
 Library           String
 Library           Collections
+Library           XvfbRobot
 Library           robot.libraries.DateTime
 Resource          vars.txt
 
@@ -23,6 +25,11 @@ Resource          vars.txt
 #  ██║  ██╗███████╗   ██║   ╚███╔███╔╝╚██████╔╝██║  ██║██████╔╝███████║
 #  ╚═╝  ╚═╝╚══════╝   ╚═╝    ╚══╝╚══╝  ╚═════╝ ╚═╝  ╚═╝╚═════╝ ╚══════╝
 *** Keywords ***
+
+Setup Xvfb
+    # Start a virtual Display
+    Start virtual display    1920    1080
+
 
 Open Browser
     # Store starttime as a global variable
@@ -50,7 +57,7 @@ Navigate To Main Webpage
     Title Should Be         Bundesnetzagentur - Mobilfunknetze
 
 
-Get ammount of Rounds
+Get amount of Rounds
     # Store the latest available Round in a global variable
     ${Current_Round_String}=    get text                xpath://div[@class='singleview']/h3
     @{Current_Round_Split}=     Split String            ${Current_Round_String}    separator=${SPACE}
@@ -96,7 +103,7 @@ Gather Data
     \   ${j}                set variable        ${j+1}
 
     # Create a new "vars.txt" file where the test data file is located to store the next round
-    create file             ${CURDIR}${/}vars.txt            *** Variables ***\n\${StartRound}${SPACE * 4}${NextGatherRound}
+    create file             ${CURDIR}${/}vars.txt       *** Variables ***\n\${StartRound}${SPACE * 4}${NextGatherRound}
     log to console          \nNext round to gather stored: ${NextGatherRound}\n
 
     # Update zip-file with all new screenshots and delete the screenshot files
@@ -115,9 +122,9 @@ Gather Data
 Get Table
     [Arguments]             ${current_round}    ${xpath}     ${filename}
 
-    # Store the ammount of rows in this table
+    # Store the amount of rows in this table
     ${Max_Row_Table}=       get element count   ${xpath}
-    log to console          \nAmmount of Rows: ${Max_Row_Table}
+    log to console          \nAmount of Rows: ${Max_Row_Table}
 
     # Loop to cycle through the rows
     : FOR  ${m}             IN RANGE    25
@@ -142,9 +149,9 @@ Get Table
 SplitUP
     [Arguments]             ${DataXPath}
 
-    # Store the ammount of values in this row
+    # Store the amount of values in this row
     ${RowValues}=           get element count   ${DataXPath}/td
-    log to console          Ammount of Values: ${RowValues}
+    log to console          Amount of Values: ${RowValues}
 
     # Create a new empty variable to append the single values seperated by a ";"
     ${valuesRow}=           set variable

@@ -13,6 +13,7 @@ Library           SeleniumLibrary
 Library           OperatingSystem
 Library           String
 Library           Collections
+Library           XvfbRobot
 Resource          auktion_keyword.resource
 
 
@@ -43,9 +44,10 @@ Get All Data
     [Tags]              All
     [Documentation]     Go to the Webpage "https://www.bundesnetzagentur.de" and collect all informations
 
+    Setup Xvfb
     Open Browser
     Check existence of vars.txt
     Navigate To Main Webpage
-    Get ammount of Rounds
+    Get amount of Rounds
     Gather Data
-    close browser
+    Close Browser
