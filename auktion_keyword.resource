@@ -31,7 +31,7 @@ Setup Xvfb
     Start virtual display    1920    1080
 
 
-Open Browser
+Start Browser
     # Store starttime as a global variable
     ${STARTTIME}=           get time
     set global variable     ${STARTTIME_G}      ${STARTTIME}

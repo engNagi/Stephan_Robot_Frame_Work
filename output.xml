@@ -1,15 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 3.1.1 (Python 3.7.1 on linux)" generated="20190429 17:31:56.120" rpa="false">
+<robot generator="Robot 3.1.1 (Python 3.7.1 on linux)" generated="20190503 13:09:05.864" rpa="false">
 <suite id="s1" name="Auktion" source="/home/testautomation/robot_auktion_clean/auktion.robot">
 <test id="s1-t1" name="Get All Data">
-<kw name="Open Browser" library="auktion_keyword">
+<kw name="Setup Xvfb" library="auktion_keyword">
+<kw name="Start Virtual Display" library="XvfbRobot">
+<doc>Starts virtual display which will be
+ destroyed after test execution will be end</doc>
+<arguments>
+<arg>1920</arg>
+<arg>1080</arg>
+</arguments>
+<msg timestamp="20190503 13:09:06.786" level="INFO">Using virtual display: '1920x1080x24'</msg>
+<status status="PASS" starttime="20190503 13:09:06.786" endtime="20190503 13:09:06.903"></status>
+</kw>
+<status status="PASS" starttime="20190503 13:09:06.785" endtime="20190503 13:09:06.903"></status>
+</kw>
+<kw name="Start Browser" library="auktion_keyword">
 <kw name="Get Time" library="BuiltIn">
 <doc>Returns the given time in the requested format.</doc>
 <assign>
 <var>${STARTTIME}</var>
 </assign>
-<msg timestamp="20190429 17:31:56.615" level="INFO">${STARTTIME} = 2019-04-29 17:31:56</msg>
-<status status="PASS" starttime="20190429 17:31:56.615" endtime="20190429 17:31:56.616"></status>
+<msg timestamp="20190503 13:09:06.905" level="INFO">${STARTTIME} = 2019-05-03 13:09:06</msg>
+<status status="PASS" starttime="20190503 13:09:06.904" endtime="20190503 13:09:06.905"></status>
 </kw>
 <kw name="Set Global Variable" library="BuiltIn">
 <doc>Makes a variable available globally in all tests and suites.</doc>
@@ -17,16 +30,16 @@
 <arg>${STARTTIME_G}</arg>
 <arg>${STARTTIME}</arg>
 </arguments>
-<msg timestamp="20190429 17:31:56.617" level="INFO">${STARTTIME_G} = 2019-04-29 17:31:56</msg>
-<status status="PASS" starttime="20190429 17:31:56.616" endtime="20190429 17:31:56.617"></status>
+<msg timestamp="20190503 13:09:06.906" level="INFO">${STARTTIME_G} = 2019-05-03 13:09:06</msg>
+<status status="PASS" starttime="20190503 13:09:06.905" endtime="20190503 13:09:06.906"></status>
 </kw>
 <kw name="Create Webdriver" library="SeleniumLibrary">
 <doc>Creates an instance of Selenium WebDriver.</doc>
 <arguments>
 <arg>${BROWSER}</arg>
 </arguments>
-<msg timestamp="20190429 17:31:56.617" level="INFO">Creating an instance of the Chrome WebDriver.</msg>
-<status status="PASS" starttime="20190429 17:31:56.617" endtime="20190429 17:31:58.786"></status>
+<msg timestamp="20190503 13:09:06.907" level="INFO">Creating an instance of the Chrome WebDriver.</msg>
+<status status="PASS" starttime="20190503 13:09:06.906" endtime="20190503 13:09:21.259"></status>
 </kw>
 <kw name="Set Window Size" library="SeleniumLibrary">
 <doc>Sets current windows size to given ``width`` and ``height``.</doc>
@@ -34,9 +47,9 @@
 <arg>${WINDOW_X}</arg>
 <arg>${WINDOW_Y}</arg>
 </arguments>
-<status status="PASS" starttime="20190429 17:31:58.786" endtime="20190429 17:31:58.923"></status>
+<status status="PASS" starttime="20190503 13:09:21.259" endtime="20190503 13:09:21.366"></status>
 </kw>
-<status status="PASS" starttime="20190429 17:31:56.615" endtime="20190429 17:31:58.923"></status>
+<status status="PASS" starttime="20190503 13:09:06.904" endtime="20190503 13:09:21.366"></status>
 </kw>
 <kw name="Check existence of vars.txt" library="auktion_keyword">
 <kw name="Run Keyword And Ignore Error" library="BuiltIn">
@@ -54,11 +67,11 @@
 <arguments>
 <arg>${StartRound}</arg>
 </arguments>
-<status status="PASS" starttime="20190429 17:31:58.924" endtime="20190429 17:31:58.924"></status>
+<status status="PASS" starttime="20190503 13:09:21.368" endtime="20190503 13:09:21.369"></status>
 </kw>
-<msg timestamp="20190429 17:31:58.924" level="INFO">${status} = PASS</msg>
-<msg timestamp="20190429 17:31:58.925" level="INFO">${message} = None</msg>
-<status status="PASS" starttime="20190429 17:31:58.924" endtime="20190429 17:31:58.925"></status>
+<msg timestamp="20190503 13:09:21.370" level="INFO">${status} = PASS</msg>
+<msg timestamp="20190503 13:09:21.370" level="INFO">${message} = None</msg>
+<status status="PASS" starttime="20190503 13:09:21.368" endtime="20190503 13:09:21.370"></status>
 </kw>
 <kw name="Run Keyword If" library="BuiltIn">
 <doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
@@ -73,9 +86,9 @@
 <arg>${StartRound}</arg>
 <arg>1</arg>
 </arguments>
-<status status="PASS" starttime="20190429 17:31:58.925" endtime="20190429 17:31:58.925"></status>
+<status status="PASS" starttime="20190503 13:09:21.370" endtime="20190503 13:09:21.371"></status>
 </kw>
-<status status="PASS" starttime="20190429 17:31:58.923" endtime="20190429 17:31:58.925"></status>
+<status status="PASS" starttime="20190503 13:09:21.367" endtime="20190503 13:09:21.372"></status>
 </kw>
 <kw name="Navigate To Main Webpage" library="auktion_keyword">
 <kw name="Go To" library="SeleniumLibrary">
@@ -83,18 +96,18 @@
 <arguments>
 <arg>${URLMAIN}</arg>
 </arguments>
-<msg timestamp="20190429 17:31:58.926" level="INFO">Opening url 'https://www.bundesnetzagentur.de/DE/Sachgebiete/Telekommunikation/Unternehmen_Institutionen/Frequenzen/OeffentlicheNetze/Mobilfunknetze/mobilfunknetze-node.html'</msg>
-<status status="PASS" starttime="20190429 17:31:58.926" endtime="20190429 17:32:00.747"></status>
+<msg timestamp="20190503 13:09:21.373" level="INFO">Opening url 'https://www.bundesnetzagentur.de/DE/Sachgebiete/Telekommunikation/Unternehmen_Institutionen/Frequenzen/OeffentlicheNetze/Mobilfunknetze/mobilfunknetze-node.html'</msg>
+<status status="PASS" starttime="20190503 13:09:21.373" endtime="20190503 13:09:22.865"></status>
 </kw>
 <kw name="Title Should Be" library="SeleniumLibrary">
 <doc>Verifies that current page title equals ``title``.</doc>
 <arguments>
 <arg>Bundesnetzagentur - Mobilfunknetze</arg>
 </arguments>
-<msg timestamp="20190429 17:32:00.815" level="INFO">Page title is 'Bundesnetzagentur - Mobilfunknetze'.</msg>
-<status status="PASS" starttime="20190429 17:32:00.747" endtime="20190429 17:32:00.815"></status>
+<msg timestamp="20190503 13:09:22.908" level="INFO">Page title is 'Bundesnetzagentur - Mobilfunknetze'.</msg>
+<status status="PASS" starttime="20190503 13:09:22.865" endtime="20190503 13:09:22.909"></status>
 </kw>
-<status status="PASS" starttime="20190429 17:31:58.925" endtime="20190429 17:32:00.816"></status>
+<status status="PASS" starttime="20190503 13:09:21.372" endtime="20190503 13:09:22.909"></status>
 </kw>
 <kw name="Get amount of Rounds" library="auktion_keyword">
 <kw name="Get Text" library="SeleniumLibrary">
@@ -105,8 +118,8 @@
 <assign>
 <var>${Current_Round_String}</var>
 </assign>
-<msg timestamp="20190429 17:32:00.884" level="INFO">${Current_Round_String} = Ergebnis der Runde 261</msg>
-<status status="PASS" starttime="20190429 17:32:00.816" endtime="20190429 17:32:00.884"></status>
+<msg timestamp="20190503 13:09:22.987" level="INFO">${Current_Round_String} = Ergebnis der Runde 270</msg>
+<status status="PASS" starttime="20190503 13:09:22.909" endtime="20190503 13:09:22.987"></status>
 </kw>
 <kw name="Split String" library="String">
 <doc>Splits the ``string`` using ``separator`` as a delimiter string.</doc>
@@ -117,8 +130,8 @@
 <assign>
 <var>@{Current_Round_Split}</var>
 </assign>
-<msg timestamp="20190429 17:32:00.885" level="INFO">@{Current_Round_Split} = [ Ergebnis | der | Runde | 261 ]</msg>
-<status status="PASS" starttime="20190429 17:32:00.884" endtime="20190429 17:32:00.885"></status>
+<msg timestamp="20190503 13:09:22.988" level="INFO">@{Current_Round_Split} = [ Ergebnis | der | Runde | 270 ]</msg>
+<status status="PASS" starttime="20190503 13:09:22.987" endtime="20190503 13:09:22.988"></status>
 </kw>
 <kw name="Set Global Variable" library="BuiltIn">
 <doc>Makes a variable available globally in all tests and suites.</doc>
@@ -126,17 +139,17 @@
 <arg>${Max_Round}</arg>
 <arg>${Current_Round_Split}[3]</arg>
 </arguments>
-<msg timestamp="20190429 17:32:00.886" level="INFO">${Max_Round} = 261</msg>
-<status status="PASS" starttime="20190429 17:32:00.885" endtime="20190429 17:32:00.886"></status>
+<msg timestamp="20190503 13:09:22.989" level="INFO">${Max_Round} = 270</msg>
+<status status="PASS" starttime="20190503 13:09:22.988" endtime="20190503 13:09:22.989"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>\n\nLatest available Round on the website: ${Max_Round}</arg>
 </arguments>
-<status status="PASS" starttime="20190429 17:32:00.886" endtime="20190429 17:32:00.887"></status>
+<status status="PASS" starttime="20190503 13:09:22.989" endtime="20190503 13:09:22.989"></status>
 </kw>
-<status status="PASS" starttime="20190429 17:32:00.816" endtime="20190429 17:32:00.887"></status>
+<status status="PASS" starttime="20190503 13:09:22.909" endtime="20190503 13:09:22.989"></status>
 </kw>
 <kw name="Gather Data" library="auktion_keyword">
 <kw name="Convert To Integer" library="BuiltIn">
@@ -147,8 +160,8 @@
 <assign>
 <var>${Max_Round_int}</var>
 </assign>
-<msg timestamp="20190429 17:32:00.888" level="INFO">${Max_Round_int} = 261</msg>
-<status status="PASS" starttime="20190429 17:32:00.887" endtime="20190429 17:32:00.888"></status>
+<msg timestamp="20190503 13:09:22.990" level="INFO">${Max_Round_int} = 270</msg>
+<status status="PASS" starttime="20190503 13:09:22.990" endtime="20190503 13:09:22.990"></status>
 </kw>
 <kw name="Set Variable" library="BuiltIn">
 <doc>Returns the given values which can then be assigned to a variables.</doc>
@@ -158,8 +171,8 @@
 <assign>
 <var>${NextGatherRound}</var>
 </assign>
-<msg timestamp="20190429 17:32:00.888" level="INFO">${NextGatherRound} = 262</msg>
-<status status="PASS" starttime="20190429 17:32:00.888" endtime="20190429 17:32:00.888"></status>
+<msg timestamp="20190503 13:09:22.991" level="INFO">${NextGatherRound} = 271</msg>
+<status status="PASS" starttime="20190503 13:09:22.990" endtime="20190503 13:09:22.991"></status>
 </kw>
 <kw name="Convert To Integer" library="BuiltIn">
 <doc>Converts the given item to an integer number.</doc>
@@ -169,8 +182,8 @@
 <assign>
 <var>${j_int}</var>
 </assign>
-<msg timestamp="20190429 17:32:00.889" level="INFO">${j_int} = 262</msg>
-<status status="PASS" starttime="20190429 17:32:00.889" endtime="20190429 17:32:00.889"></status>
+<msg timestamp="20190503 13:09:22.991" level="INFO">${j_int} = 271</msg>
+<status status="PASS" starttime="20190503 13:09:22.991" endtime="20190503 13:09:22.991"></status>
 </kw>
 <kw name="Set Variable" library="BuiltIn">
 <doc>Returns the given values which can then be assigned to a variables.</doc>
@@ -180,8 +193,8 @@
 <assign>
 <var>${j}</var>
 </assign>
-<msg timestamp="20190429 17:32:00.889" level="INFO">${j} = 262</msg>
-<status status="PASS" starttime="20190429 17:32:00.889" endtime="20190429 17:32:00.890"></status>
+<msg timestamp="20190503 13:09:22.992" level="INFO">${j} = 271</msg>
+<status status="PASS" starttime="20190503 13:09:22.991" endtime="20190503 13:09:22.992"></status>
 </kw>
 <kw name="${i} IN RANGE [ 999 ]" type="for">
 <kw name="${i} = 0" type="foritem">
@@ -208,20 +221,20 @@
 <arguments>
 <arg>\nNothing to gather. Round ${StartRound} data not available yet...</arg>
 </arguments>
-<status status="PASS" starttime="20190429 17:32:00.893" endtime="20190429 17:32:00.895"></status>
+<status status="PASS" starttime="20190503 13:09:22.993" endtime="20190503 13:09:22.994"></status>
 </kw>
 <kw name="Exit For Loop" library="BuiltIn">
 <doc>Stops executing the enclosing for loop.</doc>
-<msg timestamp="20190429 17:32:00.896" level="INFO">Exiting for loop altogether.</msg>
-<status status="PASS" starttime="20190429 17:32:00.895" endtime="20190429 17:32:00.896"></status>
+<msg timestamp="20190503 13:09:22.994" level="INFO">Exiting for loop altogether.</msg>
+<status status="PASS" starttime="20190503 13:09:22.994" endtime="20190503 13:09:22.994"></status>
 </kw>
-<status status="PASS" starttime="20190429 17:32:00.893" endtime="20190429 17:32:00.896"></status>
+<status status="PASS" starttime="20190503 13:09:22.993" endtime="20190503 13:09:22.994"></status>
 </kw>
-<status status="PASS" starttime="20190429 17:32:00.890" endtime="20190429 17:32:00.896"></status>
+<status status="PASS" starttime="20190503 13:09:22.992" endtime="20190503 13:09:22.994"></status>
 </kw>
-<status status="PASS" starttime="20190429 17:32:00.890" endtime="20190429 17:32:00.896"></status>
+<status status="PASS" starttime="20190503 13:09:22.992" endtime="20190503 13:09:22.994"></status>
 </kw>
-<status status="PASS" starttime="20190429 17:32:00.890" endtime="20190429 17:32:00.896"></status>
+<status status="PASS" starttime="20190503 13:09:22.992" endtime="20190503 13:09:22.994"></status>
 </kw>
 <kw name="Create File" library="OperatingSystem">
 <doc>Creates a file with the given content and encoding.</doc>
@@ -229,47 +242,47 @@
 <arg>/home/testautomation/robot_auktion_clean${/}vars.txt</arg>
 <arg>*** Variables ***\n\${StartRound}${SPACE * 4}${NextGatherRound}</arg>
 </arguments>
-<msg timestamp="20190429 17:32:00.901" level="INFO" html="yes">Created file '&lt;a href="file:///home/testautomation/robot_auktion_clean/vars.txt"&gt;/home/testautomation/robot_auktion_clean/vars.txt&lt;/a&gt;'.</msg>
-<status status="PASS" starttime="20190429 17:32:00.896" endtime="20190429 17:32:00.902"></status>
+<msg timestamp="20190503 13:09:23.001" level="INFO" html="yes">Created file '&lt;a href="file:///home/testautomation/robot_auktion_clean/vars.txt"&gt;/home/testautomation/robot_auktion_clean/vars.txt&lt;/a&gt;'.</msg>
+<status status="PASS" starttime="20190503 13:09:22.994" endtime="20190503 13:09:23.001"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>\nNext round to gather stored: ${NextGatherRound}\n</arg>
 </arguments>
-<status status="PASS" starttime="20190429 17:32:00.902" endtime="20190429 17:32:00.902"></status>
+<status status="PASS" starttime="20190503 13:09:23.001" endtime="20190503 13:09:23.001"></status>
 </kw>
 <kw name="Run" library="OperatingSystem">
 <doc>Runs the given command in the system and returns the output.</doc>
 <arguments>
 <arg>zip -u /home/testautomation/robot_auktion_clean${/}Output${/}AllScreenshots.zip ./Output${/}Screenshot*</arg>
 </arguments>
-<msg timestamp="20190429 17:32:00.911" level="INFO">Running command 'zip -u /home/testautomation/robot_auktion_clean/Output/AllScreenshots.zip ./Output/Screenshot* 2&gt;&amp;1'.</msg>
-<status status="PASS" starttime="20190429 17:32:00.903" endtime="20190429 17:32:00.914"></status>
+<msg timestamp="20190503 13:09:23.004" level="INFO">Running command 'zip -u /home/testautomation/robot_auktion_clean/Output/AllScreenshots.zip ./Output/Screenshot* 2&gt;&amp;1'.</msg>
+<status status="PASS" starttime="20190503 13:09:23.002" endtime="20190503 13:09:23.055"></status>
 </kw>
 <kw name="Run" library="OperatingSystem">
 <doc>Runs the given command in the system and returns the output.</doc>
 <arguments>
 <arg>rm /home/testautomation/robot_auktion_clean${/}Output${/}Screenshot*</arg>
 </arguments>
-<msg timestamp="20190429 17:32:00.917" level="INFO">Running command 'rm /home/testautomation/robot_auktion_clean/Output/Screenshot* 2&gt;&amp;1'.</msg>
-<status status="PASS" starttime="20190429 17:32:00.914" endtime="20190429 17:32:00.919"></status>
+<msg timestamp="20190503 13:09:23.063" level="INFO">Running command 'rm /home/testautomation/robot_auktion_clean/Output/Screenshot* 2&gt;&amp;1'.</msg>
+<status status="PASS" starttime="20190503 13:09:23.056" endtime="20190503 13:09:23.082"></status>
 </kw>
 <kw name="Run" library="OperatingSystem">
 <doc>Runs the given command in the system and returns the output.</doc>
 <arguments>
 <arg>zip /home/testautomation/robot_auktion_clean${/}Output${/}Round${Max_Round_int}.zip data_2GHz.txt data_36GHz.txt ./Output/AllScreenshots.zip</arg>
 </arguments>
-<msg timestamp="20190429 17:32:00.922" level="INFO">Running command 'zip /home/testautomation/robot_auktion_clean/Output/Round261.zip data_2GHz.txt data_36GHz.txt ./Output/AllScreenshots.zip 2&gt;&amp;1'.</msg>
-<status status="PASS" starttime="20190429 17:32:00.919" endtime="20190429 17:32:01.269"></status>
+<msg timestamp="20190503 13:09:23.087" level="INFO">Running command 'zip /home/testautomation/robot_auktion_clean/Output/Round270.zip data_2GHz.txt data_36GHz.txt ./Output/AllScreenshots.zip 2&gt;&amp;1'.</msg>
+<status status="PASS" starttime="20190503 13:09:23.082" endtime="20190503 13:09:23.753"></status>
 </kw>
 <kw name="Get Time" library="BuiltIn">
 <doc>Returns the given time in the requested format.</doc>
 <assign>
 <var>${ENDTIME}</var>
 </assign>
-<msg timestamp="20190429 17:32:01.270" level="INFO">${ENDTIME} = 2019-04-29 17:32:01</msg>
-<status status="PASS" starttime="20190429 17:32:01.269" endtime="20190429 17:32:01.270"></status>
+<msg timestamp="20190503 13:09:23.754" level="INFO">${ENDTIME} = 2019-05-03 13:09:23</msg>
+<status status="PASS" starttime="20190503 13:09:23.754" endtime="20190503 13:09:23.754"></status>
 </kw>
 <kw name="Subtract Date From Date" library="robot.libraries.DateTime">
 <doc>Subtracts date from another date and returns time between.</doc>
@@ -281,30 +294,30 @@
 <assign>
 <var>${RUNTIME}</var>
 </assign>
-<msg timestamp="20190429 17:32:01.275" level="INFO">${RUNTIME} = 5s</msg>
-<status status="PASS" starttime="20190429 17:32:01.270" endtime="20190429 17:32:01.275"></status>
+<msg timestamp="20190503 13:09:23.773" level="INFO">${RUNTIME} = 17s</msg>
+<status status="PASS" starttime="20190503 13:09:23.755" endtime="20190503 13:09:23.773"></status>
 </kw>
 <kw name="Log To Console" library="BuiltIn">
 <doc>Logs the given message to the console.</doc>
 <arguments>
 <arg>Runtime: ${RUNTIME}\n</arg>
 </arguments>
-<status status="PASS" starttime="20190429 17:32:01.275" endtime="20190429 17:32:01.276"></status>
+<status status="PASS" starttime="20190503 13:09:23.773" endtime="20190503 13:09:23.774"></status>
 </kw>
-<status status="PASS" starttime="20190429 17:32:00.887" endtime="20190429 17:32:01.276"></status>
+<status status="PASS" starttime="20190503 13:09:22.990" endtime="20190503 13:09:23.774"></status>
 </kw>
 <kw name="Close Browser" library="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20190429 17:32:01.276" endtime="20190429 17:32:01.336"></status>
+<status status="PASS" starttime="20190503 13:09:23.774" endtime="20190503 13:09:23.837"></status>
 </kw>
 <doc>Go to the Webpage "https://www.bundesnetzagentur.de" and collect all informations</doc>
 <tags>
 <tag>All</tag>
 </tags>
-<status status="PASS" starttime="20190429 17:31:56.614" endtime="20190429 17:32:01.336" critical="yes"></status>
+<status status="PASS" starttime="20190503 13:09:06.784" endtime="20190503 13:09:23.837" critical="yes"></status>
 </test>
 <doc>Frequenzauktion 5G 2019 Datacollector with Chrome</doc>
-<status status="PASS" starttime="20190429 17:31:56.125" endtime="20190429 17:32:01.338"></status>
+<status status="PASS" starttime="20190503 13:09:05.865" endtime="20190503 13:09:23.838"></status>
 </suite>
 <statistics>
 <total>

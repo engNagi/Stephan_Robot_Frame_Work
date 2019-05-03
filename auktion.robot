@@ -45,7 +45,7 @@ Get All Data
     [Documentation]     Go to the Webpage "https://www.bundesnetzagentur.de" and collect all informations
 
     Setup Xvfb
-    Open Browser
+    Start Browser
     Check existence of vars.txt
     Navigate To Main Webpage
     Get amount of Rounds
