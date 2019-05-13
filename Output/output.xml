@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generated="20190513 11:17:19.835" generator="Robot 3.1.1 (Python 2.7.15 on linux2)">
+<suite source="/opt/robotframework/tests" id="s1" name="Tests">
+<suite source="/opt/robotframework/tests/auktion.robot" id="s1-s1" name="Auktion">
+<test id="s1-s1-t1" name="Get All Data">
+<kw name="Start Browser" library="auktion_keyword">
+<kw name="Get Time" library="BuiltIn">
+<doc>Returns the given time in the requested format.</doc>
+<assign>
+<var>${STARTTIME}</var>
+</assign>
+<msg timestamp="20190513 11:17:20.068" level="INFO">${STARTTIME} = 2019-05-13 11:17:20</msg>
+<status status="PASS" endtime="20190513 11:17:20.068" starttime="20190513 11:17:20.067"></status>
+</kw>
+<kw name="Set Global Variable" library="BuiltIn">
+<doc>Makes a variable available globally in all tests and suites.</doc>
+<arguments>
+<arg>${STARTTIME_G}</arg>
+<arg>${STARTTIME}</arg>
+</arguments>
+<msg timestamp="20190513 11:17:20.069" level="INFO">${STARTTIME_G} = 2019-05-13 11:17:20</msg>
+<status status="PASS" endtime="20190513 11:17:20.069" starttime="20190513 11:17:20.068"></status>
+</kw>
+<kw name="Create Webdriver" library="SeleniumLibrary">
+<doc>Creates an instance of Selenium WebDriver.</doc>
+<arguments>
+<arg>${BROWSER}</arg>
+</arguments>
+<msg timestamp="20190513 11:17:20.071" level="INFO">Creating an instance of the Chrome WebDriver.</msg>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes screenshot of the current page and embeds it into log file.</doc>
+<msg timestamp="20190513 11:17:23.317" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<status status="PASS" endtime="20190513 11:17:23.317" starttime="20190513 11:17:23.316"></status>
+</kw>
+<msg timestamp="20190513 11:17:23.319" level="FAIL">WebDriverException: Message: unknown error: Chrome failed to start: exited abnormally
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location /usr/lib64/chromium-browser/chromium-browser is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+  (Driver info: chromedriver=73.0.3683.86,platform=Linux 4.9.125-linuxkit x86_64)
+</msg>
+<status status="FAIL" endtime="20190513 11:17:23.319" starttime="20190513 11:17:20.070"></status>
+</kw>
+<status status="FAIL" endtime="20190513 11:17:23.320" starttime="20190513 11:17:20.067"></status>
+</kw>
+<doc>Go to the Webpage "https://www.bundesnetzagentur.de" and collect all informations</doc>
+<tags>
+<tag>All</tag>
+</tags>
+<status status="FAIL" endtime="20190513 11:17:23.321" critical="yes" starttime="20190513 11:17:20.065">WebDriverException: Message: unknown error: Chrome failed to start: exited abnormally
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location /usr/lib64/chromium-browser/chromium-browser is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+  (Driver info: chromedriver=73.0.3683.86,platform=Linux 4.9.125-linuxkit x86_64)
+</status>
+</test>
+<doc>Frequenzauktion 5G 2019 Datacollector with Chrome</doc>
+<status status="FAIL" endtime="20190513 11:17:23.323" starttime="20190513 11:17:19.868"></status>
+</suite>
+<status status="FAIL" endtime="20190513 11:17:23.328" starttime="20190513 11:17:19.841"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="1" pass="0">Critical Tests</stat>
+<stat fail="1" pass="0">All Tests</stat>
+</total>
+<tag>
+<stat fail="1" pass="0">All</stat>
+</tag>
+<suite>
+<stat fail="1" id="s1" name="Tests" pass="0">Tests</stat>
+<stat fail="1" id="s1-s1" name="Auktion" pass="0">Tests.Auktion</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20190513 11:17:18.309" level="ERROR">Parsing '/opt/robotframework/tests/venv/lib/python2.7/LICENSE.txt' failed: Data source does not exist.</msg>
+<msg timestamp="20190513 11:17:18.720" level="ERROR">Parsing '/opt/robotframework/tests/venv/lib/python3.7/LICENSE.txt' failed: Data source does not exist.</msg>
+<msg timestamp="20190513 11:17:19.268" level="ERROR">Parsing '/opt/robotframework/tests/venv/lib/python3.7/site-packages/robotframework_selenium2library-3.0.0.dist-info/DESCRIPTION.rst' failed: Using reStructuredText test data requires having 'docutils' module version 0.9 or newer installed.</msg>
+<msg timestamp="20190513 11:17:19.287" level="ERROR">Parsing '/opt/robotframework/tests/venv/lib/python3.7/site-packages/robotframework_seleniumlibrary-3.3.1.dist-info/DESCRIPTION.rst' failed: Using reStructuredText test data requires having 'docutils' module version 0.9 or newer installed.</msg>
+<msg timestamp="20190513 11:17:19.993" level="ERROR">Error in file '/opt/robotframework/tests/auktion.robot': Importing test library 'XvfbRobot' failed: ImportError: No module named XvfbRobot
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  /usr/bin
+  /usr/lib/python27.zip
+  /usr/lib64/python2.7
+  /usr/lib64/python2.7/plat-linux2
+  /usr/lib64/python2.7/lib-tk
+  /usr/lib64/python2.7/lib-old
+  /usr/lib64/python2.7/lib-dynload
+  /usr/lib64/python2.7/site-packages
+  /usr/lib/python2.7/site-packages</msg>
+</errors>
+</robot>
