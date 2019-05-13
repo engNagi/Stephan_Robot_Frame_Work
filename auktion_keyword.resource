@@ -13,7 +13,6 @@ Library           SeleniumLibrary
 Library           OperatingSystem
 Library           String
 Library           Collections
-Library           XvfbRobot
 Library           robot.libraries.DateTime
 Resource          vars.txt
 
@@ -26,9 +25,7 @@ Resource          vars.txt
 #  ╚═╝  ╚═╝╚══════╝   ╚═╝    ╚══╝╚══╝  ╚═════╝ ╚═╝  ╚═╝╚═════╝ ╚══════╝
 *** Keywords ***
 
-Setup Xvfb
-    # Start a virtual Display
-    Start virtual display    1920    1080
+
 
 
 Start Browser

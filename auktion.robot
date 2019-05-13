@@ -44,7 +44,6 @@ Get All Data
     [Tags]              All
     [Documentation]     Go to the Webpage "https://www.bundesnetzagentur.de" and collect all informations
 
-    Setup Xvfb
     Start Browser
     Check existence of vars.txt
     Navigate To Main Webpage

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 3.1.1 (Python 3.7.1 on linux)" generated="20190503 13:09:05.864" rpa="false">
-<suite id="s1" name="Auktion" source="/home/testautomation/robot_auktion_clean/auktion.robot">
+<robot generator="Robot 3.1.1 (Python 3.7.3 on linux)" generated="20190509 19:07:42.414" rpa="false">
+<suite id="s1" name="Auktion" source="/usr/src/Stephan-project/robot-docker/auktion.robot">
 <test id="s1-t1" name="Get All Data">
 <kw name="Setup Xvfb" library="auktion_keyword">
 <kw name="Start Virtual Display" library="XvfbRobot">
@@ -10,10 +10,10 @@
 <arg>1920</arg>
 <arg>1080</arg>
 </arguments>
-<msg timestamp="20190503 13:09:06.786" level="INFO">Using virtual display: '1920x1080x24'</msg>
-<status status="PASS" starttime="20190503 13:09:06.786" endtime="20190503 13:09:06.903"></status>
+<msg timestamp="20190509 19:07:42.827" level="INFO">Using virtual display: '1920x1080x24'</msg>
+<status status="PASS" starttime="20190509 19:07:42.826" endtime="20190509 19:07:42.936"></status>
 </kw>
-<status status="PASS" starttime="20190503 13:09:06.785" endtime="20190503 13:09:06.903"></status>
+<status status="PASS" starttime="20190509 19:07:42.826" endtime="20190509 19:07:42.936"></status>
 </kw>
 <kw name="Start Browser" library="auktion_keyword">
 <kw name="Get Time" library="BuiltIn">
@@ -21,8 +21,8 @@
 <assign>
 <var>${STARTTIME}</var>
 </assign>
-<msg timestamp="20190503 13:09:06.905" level="INFO">${STARTTIME} = 2019-05-03 13:09:06</msg>
-<status status="PASS" starttime="20190503 13:09:06.904" endtime="20190503 13:09:06.905"></status>
+<msg timestamp="20190509 19:07:42.949" level="INFO">${STARTTIME} = 2019-05-09 19:07:42</msg>
+<status status="PASS" starttime="20190509 19:07:42.947" endtime="20190509 19:07:42.949"></status>
 </kw>
 <kw name="Set Global Variable" library="BuiltIn">
 <doc>Makes a variable available globally in all tests and suites.</doc>
@@ -30,305 +30,52 @@
 <arg>${STARTTIME_G}</arg>
 <arg>${STARTTIME}</arg>
 </arguments>
-<msg timestamp="20190503 13:09:06.906" level="INFO">${STARTTIME_G} = 2019-05-03 13:09:06</msg>
-<status status="PASS" starttime="20190503 13:09:06.905" endtime="20190503 13:09:06.906"></status>
+<msg timestamp="20190509 19:07:42.953" level="INFO">${STARTTIME_G} = 2019-05-09 19:07:42</msg>
+<status status="PASS" starttime="20190509 19:07:42.950" endtime="20190509 19:07:42.954"></status>
 </kw>
 <kw name="Create Webdriver" library="SeleniumLibrary">
 <doc>Creates an instance of Selenium WebDriver.</doc>
 <arguments>
 <arg>${BROWSER}</arg>
 </arguments>
-<msg timestamp="20190503 13:09:06.907" level="INFO">Creating an instance of the Chrome WebDriver.</msg>
-<status status="PASS" starttime="20190503 13:09:06.906" endtime="20190503 13:09:21.259"></status>
+<msg timestamp="20190509 19:07:42.955" level="INFO">Creating an instance of the Chrome WebDriver.</msg>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes screenshot of the current page and embeds it into log file.</doc>
+<msg timestamp="20190509 19:07:43.044" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<status status="PASS" starttime="20190509 19:07:43.043" endtime="20190509 19:07:43.044"></status>
 </kw>
-<kw name="Set Window Size" library="SeleniumLibrary">
-<doc>Sets current windows size to given ``width`` and ``height``.</doc>
-<arguments>
-<arg>${WINDOW_X}</arg>
-<arg>${WINDOW_Y}</arg>
-</arguments>
-<status status="PASS" starttime="20190503 13:09:21.259" endtime="20190503 13:09:21.366"></status>
+<msg timestamp="20190509 19:07:43.046" level="FAIL">WebDriverException: Message: unknown error: Chrome failed to start: exited abnormally
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Linux 4.9.125-linuxkit x86_64)
+</msg>
+<status status="FAIL" starttime="20190509 19:07:42.954" endtime="20190509 19:07:43.046"></status>
 </kw>
-<status status="PASS" starttime="20190503 13:09:06.904" endtime="20190503 13:09:21.366"></status>
-</kw>
-<kw name="Check existence of vars.txt" library="auktion_keyword">
-<kw name="Run Keyword And Ignore Error" library="BuiltIn">
-<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
-<arguments>
-<arg>Variable Should Exist</arg>
-<arg>${StartRound}</arg>
-</arguments>
-<assign>
-<var>${status}</var>
-<var>${message}</var>
-</assign>
-<kw name="Variable Should Exist" library="BuiltIn">
-<doc>Fails unless the given variable exists within the current scope.</doc>
-<arguments>
-<arg>${StartRound}</arg>
-</arguments>
-<status status="PASS" starttime="20190503 13:09:21.368" endtime="20190503 13:09:21.369"></status>
-</kw>
-<msg timestamp="20190503 13:09:21.370" level="INFO">${status} = PASS</msg>
-<msg timestamp="20190503 13:09:21.370" level="INFO">${message} = None</msg>
-<status status="PASS" starttime="20190503 13:09:21.368" endtime="20190503 13:09:21.370"></status>
-</kw>
-<kw name="Run Keyword If" library="BuiltIn">
-<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
-<arguments>
-<arg>"${status}" == "FAIL"</arg>
-<arg>run keywords</arg>
-<arg>create file</arg>
-<arg>/home/testautomation/robot_auktion_clean${/}vars.txt</arg>
-<arg>*** Variables ***\n\${StartRound}${SPACE * 4}1</arg>
-<arg>AND</arg>
-<arg>set global variable</arg>
-<arg>${StartRound}</arg>
-<arg>1</arg>
-</arguments>
-<status status="PASS" starttime="20190503 13:09:21.370" endtime="20190503 13:09:21.371"></status>
-</kw>
-<status status="PASS" starttime="20190503 13:09:21.367" endtime="20190503 13:09:21.372"></status>
-</kw>
-<kw name="Navigate To Main Webpage" library="auktion_keyword">
-<kw name="Go To" library="SeleniumLibrary">
-<doc>Navigates the active browser instance to the provided ``url``.</doc>
-<arguments>
-<arg>${URLMAIN}</arg>
-</arguments>
-<msg timestamp="20190503 13:09:21.373" level="INFO">Opening url 'https://www.bundesnetzagentur.de/DE/Sachgebiete/Telekommunikation/Unternehmen_Institutionen/Frequenzen/OeffentlicheNetze/Mobilfunknetze/mobilfunknetze-node.html'</msg>
-<status status="PASS" starttime="20190503 13:09:21.373" endtime="20190503 13:09:22.865"></status>
-</kw>
-<kw name="Title Should Be" library="SeleniumLibrary">
-<doc>Verifies that current page title equals ``title``.</doc>
-<arguments>
-<arg>Bundesnetzagentur - Mobilfunknetze</arg>
-</arguments>
-<msg timestamp="20190503 13:09:22.908" level="INFO">Page title is 'Bundesnetzagentur - Mobilfunknetze'.</msg>
-<status status="PASS" starttime="20190503 13:09:22.865" endtime="20190503 13:09:22.909"></status>
-</kw>
-<status status="PASS" starttime="20190503 13:09:21.372" endtime="20190503 13:09:22.909"></status>
-</kw>
-<kw name="Get amount of Rounds" library="auktion_keyword">
-<kw name="Get Text" library="SeleniumLibrary">
-<doc>Returns the text value of element identified by ``locator``.</doc>
-<arguments>
-<arg>xpath://div[@class='singleview']/h3</arg>
-</arguments>
-<assign>
-<var>${Current_Round_String}</var>
-</assign>
-<msg timestamp="20190503 13:09:22.987" level="INFO">${Current_Round_String} = Ergebnis der Runde 270</msg>
-<status status="PASS" starttime="20190503 13:09:22.909" endtime="20190503 13:09:22.987"></status>
-</kw>
-<kw name="Split String" library="String">
-<doc>Splits the ``string`` using ``separator`` as a delimiter string.</doc>
-<arguments>
-<arg>${Current_Round_String}</arg>
-<arg>separator=${SPACE}</arg>
-</arguments>
-<assign>
-<var>@{Current_Round_Split}</var>
-</assign>
-<msg timestamp="20190503 13:09:22.988" level="INFO">@{Current_Round_Split} = [ Ergebnis | der | Runde | 270 ]</msg>
-<status status="PASS" starttime="20190503 13:09:22.987" endtime="20190503 13:09:22.988"></status>
-</kw>
-<kw name="Set Global Variable" library="BuiltIn">
-<doc>Makes a variable available globally in all tests and suites.</doc>
-<arguments>
-<arg>${Max_Round}</arg>
-<arg>${Current_Round_Split}[3]</arg>
-</arguments>
-<msg timestamp="20190503 13:09:22.989" level="INFO">${Max_Round} = 270</msg>
-<status status="PASS" starttime="20190503 13:09:22.988" endtime="20190503 13:09:22.989"></status>
-</kw>
-<kw name="Log To Console" library="BuiltIn">
-<doc>Logs the given message to the console.</doc>
-<arguments>
-<arg>\n\nLatest available Round on the website: ${Max_Round}</arg>
-</arguments>
-<status status="PASS" starttime="20190503 13:09:22.989" endtime="20190503 13:09:22.989"></status>
-</kw>
-<status status="PASS" starttime="20190503 13:09:22.909" endtime="20190503 13:09:22.989"></status>
-</kw>
-<kw name="Gather Data" library="auktion_keyword">
-<kw name="Convert To Integer" library="BuiltIn">
-<doc>Converts the given item to an integer number.</doc>
-<arguments>
-<arg>${Max_Round}</arg>
-</arguments>
-<assign>
-<var>${Max_Round_int}</var>
-</assign>
-<msg timestamp="20190503 13:09:22.990" level="INFO">${Max_Round_int} = 270</msg>
-<status status="PASS" starttime="20190503 13:09:22.990" endtime="20190503 13:09:22.990"></status>
-</kw>
-<kw name="Set Variable" library="BuiltIn">
-<doc>Returns the given values which can then be assigned to a variables.</doc>
-<arguments>
-<arg>${Max_Round_int+1}</arg>
-</arguments>
-<assign>
-<var>${NextGatherRound}</var>
-</assign>
-<msg timestamp="20190503 13:09:22.991" level="INFO">${NextGatherRound} = 271</msg>
-<status status="PASS" starttime="20190503 13:09:22.990" endtime="20190503 13:09:22.991"></status>
-</kw>
-<kw name="Convert To Integer" library="BuiltIn">
-<doc>Converts the given item to an integer number.</doc>
-<arguments>
-<arg>${StartRound}</arg>
-</arguments>
-<assign>
-<var>${j_int}</var>
-</assign>
-<msg timestamp="20190503 13:09:22.991" level="INFO">${j_int} = 271</msg>
-<status status="PASS" starttime="20190503 13:09:22.991" endtime="20190503 13:09:22.991"></status>
-</kw>
-<kw name="Set Variable" library="BuiltIn">
-<doc>Returns the given values which can then be assigned to a variables.</doc>
-<arguments>
-<arg>${j_int}</arg>
-</arguments>
-<assign>
-<var>${j}</var>
-</assign>
-<msg timestamp="20190503 13:09:22.992" level="INFO">${j} = 271</msg>
-<status status="PASS" starttime="20190503 13:09:22.991" endtime="20190503 13:09:22.992"></status>
-</kw>
-<kw name="${i} IN RANGE [ 999 ]" type="for">
-<kw name="${i} = 0" type="foritem">
-<kw name="Run Keyword If" library="BuiltIn">
-<doc>Runs the given keyword with the given arguments, if ``condition`` is true.</doc>
-<arguments>
-<arg>${StartRound}==${NextGatherRound}</arg>
-<arg>run keywords</arg>
-<arg>log to console</arg>
-<arg>\nNothing to gather. Round ${StartRound} data not available yet...</arg>
-<arg>AND</arg>
-<arg>exit for loop</arg>
-</arguments>
-<kw name="Run Keywords" library="BuiltIn">
-<doc>Executes all the given keywords in a sequence.</doc>
-<arguments>
-<arg>log to console</arg>
-<arg>\nNothing to gather. Round ${StartRound} data not available yet...</arg>
-<arg>AND</arg>
-<arg>exit for loop</arg>
-</arguments>
-<kw name="Log To Console" library="BuiltIn">
-<doc>Logs the given message to the console.</doc>
-<arguments>
-<arg>\nNothing to gather. Round ${StartRound} data not available yet...</arg>
-</arguments>
-<status status="PASS" starttime="20190503 13:09:22.993" endtime="20190503 13:09:22.994"></status>
-</kw>
-<kw name="Exit For Loop" library="BuiltIn">
-<doc>Stops executing the enclosing for loop.</doc>
-<msg timestamp="20190503 13:09:22.994" level="INFO">Exiting for loop altogether.</msg>
-<status status="PASS" starttime="20190503 13:09:22.994" endtime="20190503 13:09:22.994"></status>
-</kw>
-<status status="PASS" starttime="20190503 13:09:22.993" endtime="20190503 13:09:22.994"></status>
-</kw>
-<status status="PASS" starttime="20190503 13:09:22.992" endtime="20190503 13:09:22.994"></status>
-</kw>
-<status status="PASS" starttime="20190503 13:09:22.992" endtime="20190503 13:09:22.994"></status>
-</kw>
-<status status="PASS" starttime="20190503 13:09:22.992" endtime="20190503 13:09:22.994"></status>
-</kw>
-<kw name="Create File" library="OperatingSystem">
-<doc>Creates a file with the given content and encoding.</doc>
-<arguments>
-<arg>/home/testautomation/robot_auktion_clean${/}vars.txt</arg>
-<arg>*** Variables ***\n\${StartRound}${SPACE * 4}${NextGatherRound}</arg>
-</arguments>
-<msg timestamp="20190503 13:09:23.001" level="INFO" html="yes">Created file '&lt;a href="file:///home/testautomation/robot_auktion_clean/vars.txt"&gt;/home/testautomation/robot_auktion_clean/vars.txt&lt;/a&gt;'.</msg>
-<status status="PASS" starttime="20190503 13:09:22.994" endtime="20190503 13:09:23.001"></status>
-</kw>
-<kw name="Log To Console" library="BuiltIn">
-<doc>Logs the given message to the console.</doc>
-<arguments>
-<arg>\nNext round to gather stored: ${NextGatherRound}\n</arg>
-</arguments>
-<status status="PASS" starttime="20190503 13:09:23.001" endtime="20190503 13:09:23.001"></status>
-</kw>
-<kw name="Run" library="OperatingSystem">
-<doc>Runs the given command in the system and returns the output.</doc>
-<arguments>
-<arg>zip -u /home/testautomation/robot_auktion_clean${/}Output${/}AllScreenshots.zip ./Output${/}Screenshot*</arg>
-</arguments>
-<msg timestamp="20190503 13:09:23.004" level="INFO">Running command 'zip -u /home/testautomation/robot_auktion_clean/Output/AllScreenshots.zip ./Output/Screenshot* 2&gt;&amp;1'.</msg>
-<status status="PASS" starttime="20190503 13:09:23.002" endtime="20190503 13:09:23.055"></status>
-</kw>
-<kw name="Run" library="OperatingSystem">
-<doc>Runs the given command in the system and returns the output.</doc>
-<arguments>
-<arg>rm /home/testautomation/robot_auktion_clean${/}Output${/}Screenshot*</arg>
-</arguments>
-<msg timestamp="20190503 13:09:23.063" level="INFO">Running command 'rm /home/testautomation/robot_auktion_clean/Output/Screenshot* 2&gt;&amp;1'.</msg>
-<status status="PASS" starttime="20190503 13:09:23.056" endtime="20190503 13:09:23.082"></status>
-</kw>
-<kw name="Run" library="OperatingSystem">
-<doc>Runs the given command in the system and returns the output.</doc>
-<arguments>
-<arg>zip /home/testautomation/robot_auktion_clean${/}Output${/}Round${Max_Round_int}.zip data_2GHz.txt data_36GHz.txt ./Output/AllScreenshots.zip</arg>
-</arguments>
-<msg timestamp="20190503 13:09:23.087" level="INFO">Running command 'zip /home/testautomation/robot_auktion_clean/Output/Round270.zip data_2GHz.txt data_36GHz.txt ./Output/AllScreenshots.zip 2&gt;&amp;1'.</msg>
-<status status="PASS" starttime="20190503 13:09:23.082" endtime="20190503 13:09:23.753"></status>
-</kw>
-<kw name="Get Time" library="BuiltIn">
-<doc>Returns the given time in the requested format.</doc>
-<assign>
-<var>${ENDTIME}</var>
-</assign>
-<msg timestamp="20190503 13:09:23.754" level="INFO">${ENDTIME} = 2019-05-03 13:09:23</msg>
-<status status="PASS" starttime="20190503 13:09:23.754" endtime="20190503 13:09:23.754"></status>
-</kw>
-<kw name="Subtract Date From Date" library="robot.libraries.DateTime">
-<doc>Subtracts date from another date and returns time between.</doc>
-<arguments>
-<arg>${ENDTIME}</arg>
-<arg>${STARTTIME_G}</arg>
-<arg>compact</arg>
-</arguments>
-<assign>
-<var>${RUNTIME}</var>
-</assign>
-<msg timestamp="20190503 13:09:23.773" level="INFO">${RUNTIME} = 17s</msg>
-<status status="PASS" starttime="20190503 13:09:23.755" endtime="20190503 13:09:23.773"></status>
-</kw>
-<kw name="Log To Console" library="BuiltIn">
-<doc>Logs the given message to the console.</doc>
-<arguments>
-<arg>Runtime: ${RUNTIME}\n</arg>
-</arguments>
-<status status="PASS" starttime="20190503 13:09:23.773" endtime="20190503 13:09:23.774"></status>
-</kw>
-<status status="PASS" starttime="20190503 13:09:22.990" endtime="20190503 13:09:23.774"></status>
-</kw>
-<kw name="Close Browser" library="SeleniumLibrary">
-<doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20190503 13:09:23.774" endtime="20190503 13:09:23.837"></status>
+<status status="FAIL" starttime="20190509 19:07:42.939" endtime="20190509 19:07:43.046"></status>
 </kw>
 <doc>Go to the Webpage "https://www.bundesnetzagentur.de" and collect all informations</doc>
 <tags>
 <tag>All</tag>
 </tags>
-<status status="PASS" starttime="20190503 13:09:06.784" endtime="20190503 13:09:23.837" critical="yes"></status>
+<status status="FAIL" starttime="20190509 19:07:42.823" endtime="20190509 19:07:43.048" critical="yes">WebDriverException: Message: unknown error: Chrome failed to start: exited abnormally
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Linux 4.9.125-linuxkit x86_64)
+</status>
 </test>
 <doc>Frequenzauktion 5G 2019 Datacollector with Chrome</doc>
-<status status="PASS" starttime="20190503 13:09:05.865" endtime="20190503 13:09:23.838"></status>
+<status status="FAIL" starttime="20190509 19:07:42.418" endtime="20190509 19:07:43.053"></status>
 </suite>
 <statistics>
 <total>
-<stat pass="1" fail="0">Critical Tests</stat>
-<stat pass="1" fail="0">All Tests</stat>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
 </total>
 <tag>
-<stat pass="1" fail="0">All</stat>
+<stat pass="0" fail="1">All</stat>
 </tag>
 <suite>
-<stat pass="1" fail="0" id="s1" name="Auktion">Auktion</stat>
+<stat pass="0" fail="1" id="s1" name="Auktion">Auktion</stat>
 </suite>
 </statistics>
 <errors>
