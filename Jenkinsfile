@@ -5,13 +5,12 @@ pipeline
         dockerfile
                   {
                   filename 'Dockerfile'
-
                   }
     }
     stages {
-        stage('Running Robot-Framework') {
+        stage('Test') {
             steps {
-                    args '-v auktion.robot:/opt/robotframework/reports'
+                sh 'node --version'
             }
 
         }
