@@ -5,7 +5,7 @@ pipeline
         dockerfile
                   {
                   filename 'Dockerfile'
-                  args '-v auktion.robot:/opt/robotframework/tests'
+                  args '-v ./Stephan_Robot_Frame_Work/:/opt/robotframework/tests'
                   }
     }
     stages {
