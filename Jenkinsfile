@@ -4,10 +4,8 @@ pipeline
             {
                 dockerfile
                 {
-                filename 'Dockerfile.build'
-                args'-v /Users/mohamednagi/Desktop/Work/Stephan_Robot_Frame_Work/:/opt/robotframework/tests
-                    -v /Users/mohamednagi/Desktop/Work/Stephan_Robot_Frame_Work/Output:/opt/robotframework/reports
-                    --name robot-framework robot-framework/docker:latest'
+                filename 'Dockerfile'
+                args'-v /Users/mohamednagi/Desktop/Work/Stephan_Robot_Frame_Work/:/opt/robotframework/tests -v /Users/mohamednagi/Desktop/Work/Stephan_Robot_Frame_Work/Output:/opt/robotframework/reports --name robot-framework robot-framework/docker:latest'
                 }
             }
             stages {
